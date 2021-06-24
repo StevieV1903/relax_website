@@ -16,12 +16,32 @@ const Navbar = () => {
         setClick( false )
     };
 
+    const extendElement = () => {
+        dropdown ? setDropdown(false) : setDropdown(true);
+      }
+
+    const onMouseEnter = () => {
+        if( window.innerWidth < 960 ) {
+            setDropdown( false )
+        } else {
+            setDropdown( true )
+        }
+    };
+
+    const onMouseLeave = () => {
+        if( window.innerWidth < 960 ) {
+            setDropdown( false )
+        } else {
+            setDropdown( false )
+        }
+    };
+
 
     return(
         <>
         <nav className="navbar">
             <Link to="/" className="navbar-logo">
-                RELAX
+                RELAX <i className='fab fa-r-project'/>
             </Link>
 
             <div className="menu-icon" onClick={ handleClick }>
@@ -29,7 +49,7 @@ const Navbar = () => {
             </div>
 
             <ul className={ click ? 'nav-menu active' : 'nav-menu' }>
-                
+
                 <li className="nav-item">
                     <Link to='/' className="nav-links" onClick={ closeMobileMenu }>
                         Home
@@ -40,12 +60,18 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li className="nav-item">
-                    <Link to='/services' className="nav-links" onClick={ closeMobileMenu }>
+                <li className="nav-item"
+                        onMouseEnter={ onMouseEnter }
+                        onMouseLeave={ onMouseLeave }
+                        onClick={extendElement}
+                        >
+                    <Link to='/services' className="nav-links" 
+                    // onClick={ closeMobileMenu }
+                    >
                         Services <i className='fas fa-caret-down' />
                     </Link>
 
-                    { dropdown && <Dropdown />}
+                    { dropdown && <Dropdown onCloseMobileMenu={ closeMobileMenu } />}
                 </li>
 
                 <li className="nav-item">
