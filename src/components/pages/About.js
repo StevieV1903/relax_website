@@ -21,11 +21,13 @@ const About = () => {
         Senectus nunc, cras amet torquent. Vulputate inceptos ad nullam? Aenean vestibulum nibh justo tellus. Venenatis dapibus urna commodo eleifend quisque quam semper senectus. Magna primis hendrerit id, vel mattis ut natoque ac aenean. Lacinia in, et tristique maecenas hendrerit aptent eleifend. In sociosqu mus facilisi, ante auctor nisl interdum diam praesent sodales non. Malesuada mauris nascetur congue libero est vehicula.
         </p>
         <p>
-        Porttitor massa ultricies dictumst feugiat. Fames augue leo magna mollis, per nec quisque porttitor vestibulum mi. Malesuada molestie, molestie litora. Netus ipsum facilisis, tincidunt ante dictum lorem eleifend. Nisl blandit neque varius sociis laoreet euismod venenatis habitant facilisis. Diam elit commodo eros? Turpis lobortis sem leo diam non condimentum natoque. Platea felis, consequat torquent morbi? Metus ligula non urna suspendisse semper molestie viverra fames egestas donec aptent consectetur. Ante magnis vehicula senectus eget. Litora dui nunc accumsan.
-        </p>
-        <p>
         Dignissim pulvinar et scelerisque fermentum. Feugiat eget platea est varius suspendisse ridiculus inceptos ullamcorper velit curabitur ultrices laoreet! A rutrum class sem mattis ante inceptos. Vitae sodales, lorem aptent? Eget tortor non augue semper himenaeos suspendisse taciti aptent phasellus. Non curae; purus consectetur montes amet porttitor ut elit. At cursus, suspendisse non. Dapibus nulla ad hendrerit. Himenaeos enim suscipit fringilla luctus? Pulvinar risus mollis porttitor tincidunt nascetur vitae turpis.
         </p>
+        <blockquote>
+            I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
+            <span>- Oscar, 9</span>
+        </blockquote>
+        <br></br>
         <p>
         Dui cursus fringilla sem elit montes, mattis consectetur augue penatibus cubilia netus class. Amet vivamus non, elit tincidunt felis amet est. Facilisi hac nisl vel blandit id enim! Nam accumsan nascetur tristique pretium? Facilisi vel eget eget praesent condimentum venenatis! A nunc habitasse, parturient orci. Leo inceptos, duis urna metus inceptos suscipit vel luctus amet lacinia. Pellentesque vel condimentum pulvinar morbi.
         </p>

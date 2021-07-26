@@ -16,7 +16,7 @@ const Home = () => {
                     <h1>Welcome to RELAX East Lothian</h1>
                     <p>Let us help you add a bit of calm to your hectic life.</p>
                     <button className="home-btn">
-                        <Link to="/contact" >
+                        <Link to="/contact" className="home-btn-link">
                             Contact Me
                         </Link>
                     </button>

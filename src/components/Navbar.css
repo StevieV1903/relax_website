@@ -30,6 +30,7 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    z-index: 1;
   }
   
   .nav-item {
