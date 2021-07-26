@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(90deg, purple 0%, #412468 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: #ffffff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -16,9 +16,9 @@
     font-size: 2rem;
   }
   
-  .fa-firstdraft {
+  .fa-r-project {
     margin-left: 0.5rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   
   .nav-menu {
@@ -48,6 +48,7 @@
     background-color: #1888ff;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    /* border: 1px solid white; */
   }
   
   .fa-bars {

@@ -65,7 +65,7 @@ const Navbar = () => {
                         onMouseLeave={ onMouseLeave }
                         onClick={extendElement}
                         >
-                    <Link to='/services' className="nav-links" 
+                    <Link to='#' className="nav-links" 
                     // onClick={ closeMobileMenu }
                     >
                         Services <i className='fas fa-caret-down' />
