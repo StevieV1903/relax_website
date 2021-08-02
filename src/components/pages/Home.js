@@ -13,7 +13,7 @@ const Home = () => {
 
                 <div class="hero-image">
                 <div class="hero-text">
-                    <h1>Welcome to RELAX East Lothian</h1>
+                    <h1 className="hero-title">Relax East Lothian</h1>
                     <p>Let us help you add a bit of calm to your hectic life.</p>
                     <button className="home-btn">
                         <Link to="/contact" className="home-btn-link">
