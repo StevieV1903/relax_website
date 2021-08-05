@@ -1,10 +1,10 @@
 .navbar {
-    background: linear-gradient(90deg, purple 0%, #412468 100%);
+    background: #412468;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 20px;
   }
   
   .navbar-logo {
@@ -13,12 +13,12 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 32px;
   }
   
   .fa-r-project {
-    margin-left: 0.5rem;
-    font-size: 2rem;
+    margin-left: 10px;
+    font-size: 32px;
   }
   
   .nav-menu {
@@ -29,7 +29,7 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 32px;
     z-index: 1;
   }
   
@@ -42,7 +42,7 @@
   .nav-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
   }
   
   .nav-links:hover {
@@ -91,7 +91,7 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding: 32px;
       width: 100%;
       display: table;
     }
@@ -114,26 +114,26 @@
       top: 0;
       right: 0;
       transform: translate(-100%, 60%);
-      font-size: 1.8rem;
+      font-size: 30px;
       cursor: pointer;
     }
   
     .fa-times {
       color: #fff;
-      font-size: 2rem;
+      font-size: 32px;
     }
   
     .nav-links-mobile {
       display: block;
       text-align: center;
-      padding: 1.5rem;
-      margin: 2rem auto;
+      padding: 24px;
+      margin: 32px auto;
       border-radius: 4px;
       width: 80%;
       background: #1888ff;
       text-decoration: none;
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 24px;
     }
   
     .nav-links-mobile:hover {

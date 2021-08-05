@@ -6,18 +6,18 @@ const About = () => {
 
     return(
         <div className="about">
-        <h1 className="about-title">Relax East Lothian</h1>
-        <h2>ABOUT Relax East Lothian.</h2>
-        <article>Lectus habitant pellentesque ultrices arcu vehicula arcu vestibulum. Porttitor primis duis dignissim pharetra potenti cras leo porttitor fames phasellus. Dictum ultrices vel nam ut nascetur condimentum habitant magna adipiscing cubilia laoreet eros. 
+        {/* <h1 className="about-title">Relax East Lothian</h1> */}
+        <h2>ABOUT Relax East Lothian</h2>
+        <hr class="divider"></hr>
+        <p>Lectus habitant pellentesque ultrices arcu vehicula arcu vestibulum. Porttitor primis duis dignissim pharetra potenti cras leo porttitor fames phasellus. Dictum ultrices vel nam ut nascetur condimentum habitant magna adipiscing cubilia laoreet eros. </p>
             
         <figure className="fig">
             <img src={ relax1 } className="fig__media" alt="children at relax kids" />
             <figcaption className="image-caption-text">Children enjoying a Relax Kids session in Dunbar, East Lothian.</figcaption>
         </figure>
-        <br></br>
 
-        Consequat sit purus nisi penatibus massa elementum lorem, praesent cubilia interdum. Egestas purus feugiat montes sollicitudin lacinia. Lectus est at pellentesque eros lacinia interdum curabitur laoreet semper. Est, adipiscing viverra volutpat magnis fusce laoreet dictumst. Eleifend, senectus himenaeos id. Praesent lorem mauris nisi in scelerisque elementum gravida metus. Duis interdum bibendum fusce at euismod tempor est morbi natoque donec.
-        </article>
+        <p>Consequat sit purus nisi penatibus massa elementum lorem, praesent cubilia interdum. Egestas purus feugiat montes sollicitudin lacinia. Lectus est at pellentesque eros lacinia interdum curabitur laoreet semper. Est, adipiscing viverra volutpat magnis fusce laoreet dictumst. Eleifend, senectus himenaeos id. Praesent lorem mauris nisi in scelerisque elementum gravida metus. Duis interdum bibendum fusce at euismod tempor est morbi natoque donec.
+        </p>
         
         <p>
         Senectus nunc, cras amet torquent. Vulputate inceptos ad nullam? Aenean vestibulum nibh justo tellus. Venenatis dapibus urna commodo eleifend quisque quam semper senectus. Magna primis hendrerit id, vel mattis ut natoque ac aenean. Lacinia in, et tristique maecenas hendrerit aptent eleifend. In sociosqu mus facilisi, ante auctor nisl interdum diam praesent sodales non. Malesuada mauris nascetur congue libero est vehicula.
