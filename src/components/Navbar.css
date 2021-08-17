@@ -10,14 +10,14 @@
   .navbar-logo {
     color: #ffffff;
     justify-self: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
     font-size: 32px;
   }
   
   .fa-r-project {
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 32px;
   }
   
@@ -106,6 +106,10 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+    }
+
+    .fa-r-project {
+      margin-left: 20px;
     }
   
     .menu-icon {

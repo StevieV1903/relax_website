@@ -41,7 +41,7 @@ const Navbar = () => {
         <>
         <nav className="navbar">
             <Link to="/" className="navbar-logo">
-                RELAX<i className='fab fa-r-project'/>
+                <i className='fab fa-r-project'/>
             </Link>
 
             <div className="menu-icon" onClick={ handleClick }>
