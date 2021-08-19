@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import relax1 from '../../assets/relax1.jpg';
+import './About.css';
 
 const About = () => {
 
     return(
-        <div className="about">
-        {/* <h1 className="about-title">Relax East Lothian</h1> */}
+        <div className="about-container">
         <h2>Relax East Lothian</h2>
         <hr class="divider"></hr>
         <p>Lectus habitant pellentesque ultrices arcu vehicula arcu vestibulum. Porttitor primis duis dignissim pharetra potenti cras leo porttitor fames phasellus. Dictum ultrices vel nam ut nascetur condimentum habitant magna adipiscing cubilia laoreet eros. </p>
