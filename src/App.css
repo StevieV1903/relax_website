@@ -8,6 +8,55 @@
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
+
+/* Blue Container */
+.green-content {
+  height: auto;
+  background:#119DA4;
+  position:relative;
+  color: white;
+  padding: 15px;
+}
+
+/* Blue Diagonal */
+.sapphire-diagonal{
+   width: 0;
+   height:0;
+   border-top: 100px solid #119DA4;
+   border-left: 100vw solid transparent;
+}
+
+/* Green Container */
+.sapphire-content{
+  height:400px;
+  background:#19647E;
+  overflow:hidden;
+  position:relative;
+}
+.sapphire-text{
+  height: auto;
+  color: white;
+  padding: 15px;
+}
+
+.white-diagonal{
+   width: 0;
+   height:0;
+   position:absolute;
+   bottom:0px;
+   border-bottom: 100px solid white;
+   border-left: 100vw solid transparent;
+}
+
+/* Green Container */
+.white-content{
+  height:200px;
+  background:white;
+  overflow:hidden;
+  color: #5a5a5a;
+  padding: 15px;
+}
+
 .divider {
   border-top: 4px solid #bbb;
   border-radius: 5px;
@@ -25,8 +74,6 @@
 .home {
   font-size: 20px;
   line-height: 2.0;
-  /* min-height: 79vh; */
-  /* text-align: justify; */
 }
 
 .home-link {
@@ -68,7 +115,7 @@
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg) */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/homeHero.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/homeHero.jpg");
 
 /* Set specific height */
 height: 80vh;
@@ -112,7 +159,7 @@ p {
 }
 figure > .fig__media {
   width: 350px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   border-radius: 4px;
   opacity: 0.8;
 }
@@ -136,6 +183,7 @@ figure > .image-caption-text {
   width: 100%;
   color: white;
   padding: 5px 10px;
+  font-size: 16px;
 }
 
 blockquote{
