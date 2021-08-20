@@ -6,6 +6,7 @@ const Service1 = () => {
     return(
 <div className="service1-container">
         <div className="white-content">
+        <h1>Relax Kids Services</h1>
             <p>I am a fully trained and qualified Relax Kids coach, experienced at delivering the following sessions, either in a group setting or on a 1-2-1 basis. Please get in touch if you would like more information or to have a chat about the benefits of attending any of the sessions.</p>
         </div>
         <div className="green-diagonal">
