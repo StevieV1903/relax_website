@@ -22,7 +22,7 @@
   
   .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg) */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/homeHero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/homeHero.jpg");
   /* Set specific height */
   height: 80vh;
   /* Position and center the image to scale on all screens */

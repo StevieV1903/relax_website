@@ -14,11 +14,16 @@
   .navbar-logo {
     color: #ffffff;
     justify-self: start;
-    /* margin-left: 20px; */
+    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 32px;
   }
+
+  /* .nav-logo {
+    justify-self: start;
+    width: 50px;
+  } */
   
   .fa-r-project {
     /* margin-left: 10px; */
@@ -52,7 +57,7 @@
   }
   
   .nav-links:hover {
-    background-color: #1888ff;
+    background-color: #119da4;
     border-radius: 4px;
     transition: all 0.2s ease-out;
     /* border: 1px solid white; */
@@ -103,7 +108,7 @@
     }
   
     .nav-links:hover {
-      background-color: #1888ff;
+      background-color: #119da4;
       border-radius: 0;
     }
   
@@ -112,10 +117,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
-    }
-
-    .fa-r-project {
-      margin-left: 20px;
+      margin-left: 10px;
     }
   
     .menu-icon {

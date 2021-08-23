@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown.js';
+// import logo from '../assets/logoholder.png';
 
 const Navbar = () => {
 
@@ -42,6 +43,7 @@ const Navbar = () => {
         <nav className="navbar">
             <Link to="/" className="navbar-logo">
                 <i className='fab fa-r-project'/>
+                {/* <img src={logo} className='nav-logo'/> */}
             </Link>
 
             <div className="menu-icon" onClick={ handleClick }>
