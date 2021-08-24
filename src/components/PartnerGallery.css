@@ -1,10 +1,12 @@
 
   .partner-gallery-container {
     height: auto;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    font-size: 18px;
+    color: #5a5a5a;
+    line-height: 1.5;
+    text-align: justify;
 
   }
   .gallery-container {
@@ -14,6 +16,7 @@
     align-items: center; 
     justify-content: center; 
     text-align: center;
+    margin-top: 20px;
   }
   .logo-container {
       margin-left: auto;
@@ -21,7 +24,7 @@
   }
   
   img {
-      width: 65%;
+      width: 60%;
       
   }
 

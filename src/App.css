@@ -181,3 +181,16 @@ blockquote span{
   margin-top: 10px;
   font-family: 'Schoolbell', cursive;
 }
+.relax-kids-logo {
+  width: 100px;
+  justify-self: right;
+  margin-right: 50px;
+}
+.relax-kids-container{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+  min-width: 100%;
+}

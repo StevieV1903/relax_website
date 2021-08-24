@@ -3,24 +3,28 @@ import './PartnerGallery.css';
 
 import elcLogo from '../assets/elc_logo.png';
 import asLogo from '../assets/active-schools.jpeg';
+import dpsLogo from '../assets/dps.png';
 
 const PartnerGallery = () => {
 
     return(
         <div className="partner-gallery-container">
+             <h2>Relax East Lothian Partnerships</h2>
+             <hr className="divider"></hr>
+             <p>Relax East Lothian has delivered well-being sessions, to a variety of age groups, in partnership with the following organisations around the county;</p>
 
             <div className="gallery-container">
                 <div className="logo-container">
                     <img src={elcLogo} alt="east lothian council"></img>
                 </div>
                 <div className="logo-container">
-                    <img src={asLogo} alt="east lothian council"></img>
+                    <img src={dpsLogo} alt="dunbar primary school"></img>
                 </div>
                 <div className="logo-container">
                     <img src={elcLogo} alt="east lothian council"></img>
                 </div>
                 <div className="logo-container">
-                    <img src={asLogo} alt="east lothian council"></img>
+                    <img src={asLogo} alt="active schools"></img>
                 </div>
 
 
