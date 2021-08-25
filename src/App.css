@@ -183,8 +183,8 @@ blockquote span{
 }
 .relax-kids-logo {
   width: 100px;
-  justify-self: right;
-  margin-right: 50px;
+  justify-self: end;
+  /* margin-right: 50px; */
 }
 .relax-kids-container{
   display: grid;
@@ -192,5 +192,5 @@ blockquote span{
   grid-gap: 10px;
   align-items: center;
   /* justify-content: center; */
-  min-width: 100%;
+  width: 100%;
 }

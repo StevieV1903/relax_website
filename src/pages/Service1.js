@@ -36,6 +36,8 @@ const Service1 = () => {
             </div>
             <h3>Suitable for ages 0-18 months</h3>
             <h3>Spend quality time with your baby in a supportive, calming atmosphere.</h3>
+            
+            
             <p>Baby Mindful is a new approach to working with parents of young babies and has been created with a range of activities which will stimulate calm whist supporting your baby’s natural development. Baby Mindful classes can help encourage your babies confidence and awareness along with cognitive, communicative, social, emotional and physical development. </p>
             </div>
             <div className="white-diagonal">
