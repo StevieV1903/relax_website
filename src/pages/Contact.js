@@ -6,9 +6,13 @@ const Contact = () => {
 
     return(
         <>
-        <div className="contact">
+        <div className="contact-page-container">
+            <div className="sapphire-content">
             <h1 className="contact-title">This is the contact page</h1>
-            <div>
+            </div>
+            <div className="contact-diagonal">
+            </div>
+            <div> 
             <PartnerGallery />
             </div>
         </div>

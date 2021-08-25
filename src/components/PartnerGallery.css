@@ -1,5 +1,6 @@
 
   .partner-gallery-container {
+      background-color: white;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -7,6 +8,7 @@
     color: #5a5a5a;
     line-height: 1.5;
     text-align: justify;
+    padding: 20px;
 
   }
   .gallery-container {

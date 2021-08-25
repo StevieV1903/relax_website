@@ -10,7 +10,6 @@ const PartnerGallery = () => {
     return(
         <div className="partner-gallery-container">
              <h2>Relax East Lothian Partnerships</h2>
-             <hr className="divider"></hr>
              <p>Relax East Lothian has delivered well-being sessions, to a variety of age groups, in partnership with the following organisations around the county;</p>
 
             <div className="gallery-container">

@@ -43,6 +43,7 @@
   background:#175f77;
   overflow:hidden;
   position:relative;
+  color: white;
 }
 .sapphire-text{
   height: auto;
@@ -56,17 +57,25 @@
    height:0;
    position:absolute;
    bottom:0px;
-   border-bottom: 50px solid #eeeeee;
+   border-bottom: 50px solid white;
    border-left: 100vw solid transparent;
 }
 
 /* White Container */
 .white-content{
   height: auto;
-  background: #eeeeee;
+  background: white;
   overflow:hidden;
   color: #5a5a5a;
   padding: 15px 30px 20px 30px;
+}
+.contact-diagonal {
+  width: 0;
+  height:0;
+  /* position: absolute;
+  bottom:0px; */
+  border-bottom: 50px solid white;
+  border-left: 100vw solid transparent;
 }
 
 hr {
@@ -75,7 +84,7 @@ hr {
   margin-bottom: 10px;
 }
 
-.contact, .service2, .service3, .service4 {
+.service2, .service3, .service4 {
   font-size: 20px;
   padding: 20px;
   line-height: 1.5;
@@ -84,11 +93,18 @@ hr {
 }
 
 .service1-container {
-  background-color: #eeeeee;
+  background-color: white;
   font-size: 18px;
   padding-top: 20px;
   line-height: 1.25;
-  /* min-height: 79vh; */
+  text-align: justify;
+}
+.contact-page-container {
+  font-size: 18px;
+  padding-top: 20px;
+  background-color: #175f77;
+  line-height: 1.25;
+  min-height: 79vh;
   text-align: justify;
 }
 
