@@ -1,5 +1,4 @@
 .footer-container{
-    /* border: solid 1px black; */
     background: #1F2041;
     height: auto;
     /* display: flex; */
@@ -33,6 +32,3 @@
   .footer-container i {
     font-size: 2.2rem;
   }
-  /* .footer-container i:hover {
-    font-size: 2.2rem;
-  } */

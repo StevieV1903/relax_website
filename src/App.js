@@ -16,6 +16,7 @@ import Service4 from "./pages/Service4.js";
 
 const App = () => {
   return (
+    <div className="app">
     <Router> 
       <Navbar />
       <Switch>
@@ -30,6 +31,7 @@ const App = () => {
       </Switch>
       <Footer />
     </Router>
+    </div>
   );
 }
 
