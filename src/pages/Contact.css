@@ -1,0 +1,37 @@
+.contact-page-container {
+    font-size: 18px;
+    padding: 20px;
+    background-color: #175f77;
+    line-height: 1.25;
+    min-height: 79vh;
+    text-align: justify;
+  }
+
+.contact-diagonal {
+    width: 0;
+    height:0;
+    border-bottom: 50px solid white;
+    border-left: 100vw solid transparent;
+  }
+
+  .contact-info-container {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      width: 80%;
+      margin: 20px auto 40px auto;
+      align-content: center;
+  }
+
+  .contact-info-container i {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+  }
+
+.contact-item {
+    align-self: center;   
+}
+
+.contact-item p {
+    margin: 0;   
+}

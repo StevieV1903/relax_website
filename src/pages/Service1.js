@@ -24,6 +24,11 @@ const Service1 = () => {
             <h3>Join our magical, creative and fun classes especially designed to help your child become more resilient, calm and confident.</h3>
             <p>Relax Kids magical adventure classes are fun and creative helping children become more resilient and improving their emotions. By giving children a toolbox of relaxation and mindful exercises from a young age, they will grow up with good mental health. Classes usually run for a 6 week period around a certain theme. Our class themes include Superheroes, Pirates and Mermaids, Genius Genie, Extraordinary Earth, Mighty Monsters, Intergalactic Adventures, Fairytales, Detectives and Confidence Bootcamp. Each week your child will go on a brand new adventure learning valuable skills whilst developing their imagination.
         </p>
+        <blockquote>
+            I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
+            <span>- Oscar, 9</span>
+        </blockquote>
+        <br></br>
         </div>
  
         <div className="sapphire-content">
@@ -39,6 +44,11 @@ const Service1 = () => {
             
             
             <p>Baby Mindful is a new approach to working with parents of young babies and has been created with a range of activities which will stimulate calm whist supporting your baby’s natural development. Baby Mindful classes can help encourage your babies confidence and awareness along with cognitive, communicative, social, emotional and physical development. </p>
+            <blockquote>
+            I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
+            <span>- Oscar, 9</span>
+        </blockquote>
+        <br></br>
             </div>
             <div className="white-diagonal">
             </div>
