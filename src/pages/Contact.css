@@ -20,9 +20,9 @@
 
   .contact-info-container {
       display: grid;
-      grid-template-columns: repeat(2, auto);
-      width: 80%;
-      margin: 20px auto 40px auto;
+      grid-template-columns: 1fr 5fr;
+      width: 50%;
+      margin: 10px;
       align-content: center;
   }
 
@@ -30,10 +30,11 @@
     font-size: 35px;
     float: right;
     margin-right: 20px;
+    
   }
 
 .contact-item {
-    align-self: center;   
+    align-self: center; 
 }
 
 .contact-item p {

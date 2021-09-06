@@ -8,7 +8,7 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: #412468;
+    background-color: #1F2041;
     color: white;
     border: 1px solid white;
     border-radius: 4px;
@@ -16,8 +16,8 @@
   
   .home-link:hover {
     background-color: white;
-    color: #412468;
-    border: 1px solid #412468;
+    color: #1F2041;
+    border: 1px solid #1F2041;
   }
   
   .hero-image {
