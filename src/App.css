@@ -11,7 +11,7 @@
   font-family: 'Raleway', sans-serif;
 }
 .app{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Green Container */
@@ -84,14 +84,6 @@ hr {
   padding: 20px;
   line-height: 1.5;
   min-height: 79vh;
-  text-align: justify;
-}
-
-.service1-container {
-  background-color: white;
-  font-size: 18px;
-  padding-top: 20px;
-  line-height: 1.25;
   text-align: justify;
 }
 
@@ -186,17 +178,4 @@ blockquote span{
   font-weight: bold;
   margin-top: 10px;
   font-family: 'Schoolbell', cursive;
-}
-.relax-kids-logo {
-  width: 100px;
-  justify-self: end;
-  /* margin-right: 50px; */
-}
-.relax-kids-container{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 10px;
-  align-items: center;
-  /* justify-content: center; */
-  width: 100%;
 }

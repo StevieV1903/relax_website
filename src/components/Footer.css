@@ -1,7 +1,6 @@
 .footer-container{
     background: #1F2041;
     height: auto;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -20,15 +19,16 @@
 .footer-item {
     display: flex;
     align-items: center;
-  }
+}
 
-  .footer-container a{
+.footer-container a{
       color: white;
-  }
-  .footer-container a:hover{
+}
+
+.footer-container a:hover{
     color: #119da4;
 }
 
-  .footer-container i {
+.footer-container i {
     font-size: 2.2rem;
-  }
+}

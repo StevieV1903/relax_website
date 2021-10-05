@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import './Service1.css';
 import rkLogo from '../assets/relaxkidsLogo.png';
 import bmLogo from '../assets/bmLogo.png';
 import cuLogo from '../assets/cuLogo.png';
@@ -17,8 +18,9 @@ const Service1 = () => {
 
         <div className="green-content">
             <div className="relax-kids-container">
-            <h2>Relax Kids</h2>
             <img className="relax-kids-logo" src={rkLogo} alt="relax kids" />
+            <h2>Relax Kids</h2>
+            {/* <img className="relax-kids-logo" src={rkLogo} alt="relax kids" /> */}
             </div>
             <h3>Suitable for ages 3+</h3>
             <h3>Join our magical, creative and fun classes especially designed to help your child become more resilient, calm and confident.</h3>
@@ -36,8 +38,8 @@ const Service1 = () => {
             </div>
             <div className="sapphire-text">
             <div className="relax-kids-container">
-            <h2>Baby Mindful</h2>
             <img className="relax-kids-logo" src={bmLogo} alt="relax kids" />
+            <h2>Baby Mindful</h2>
             </div>
             <h3>Suitable for ages 0-18 months</h3>
             <h3>Spend quality time with your baby in a supportive, calming atmosphere.</h3>
@@ -56,8 +58,8 @@ const Service1 = () => {
 
         <div className="white-content">
             <div className="relax-kids-container">
-            <h2>ChargeUP</h2>
             <img className="relax-kids-logo" src={cuLogo} alt="relax kids" />
+            <h2>ChargeUP</h2>
             </div>
             <h3>Suitable for ages 11+</h3>
             <h3>ChargeUp sessions cover a range of topics from self-awareness, sleep hygiene, to consent, boundaries and stress management.</h3>

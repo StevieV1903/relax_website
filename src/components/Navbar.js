@@ -41,10 +41,9 @@ const Navbar = () => {
     return(
         <>
         <nav className="navbar">
-            <Link to="/" className="navbar-logo">
+            {/* <Link to="/" className="navbar-logo">
                 <i className='fab fa-r-project'/>
-                {/* <img src={logo} className='nav-logo'/> */}
-            </Link>
+            </Link> */}
 
             <div className="menu-icon" onClick={ handleClick }>
                 <i className={ click ? 'fas fa-times' : 'fas fa-bars' } />
