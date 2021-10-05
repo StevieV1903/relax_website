@@ -1,9 +1,19 @@
 .home-container {
     font-size: 20px;
     line-height: 2.0;
+    height: 100%;
 }
 
-.home-link {
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/homeHero.jpg");
+  min-height: 79vh ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  }
+
+/* .home-link {
     font-size: 16px;
     color: white;
     text-decoration: none;
@@ -18,19 +28,8 @@
     background-color: white;
     color: #1F2041;
     border: 1px solid #1F2041;
-  }
+  } */
   
-  .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg) */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/homeHero.jpg");
-  /* Set specific height */
-  min-height: 77vh ;
-  /* Position and center the image to scale on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  }
   
   /* Place text in the middle of the image */
   .hero-text {

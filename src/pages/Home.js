@@ -14,9 +14,9 @@ const Home = () => {
                     <div 
                     // className="home-btn"
                     >
-                        <Link to="/contact" className="home-link">
+                        {/* <Link to="/contact" className="home-link">
                             Contact
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 </div>

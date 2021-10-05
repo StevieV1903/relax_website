@@ -10,7 +10,7 @@
 .footer-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    grid-gap: 20px;
     list-style: none;
     text-align: center;
     justify-content: center;
