@@ -7,8 +7,8 @@
     text-align: justify;
   }
 
-  .contact-intro {
-    padding: 20px;
+.contact-intro {
+    padding: 15px 40px;
   }
 
 .contact-diagonal {
@@ -18,20 +18,22 @@
     border-left: 100vw solid transparent;
   }
 
-  .contact-info-container {
+.contact-info-container {
       display: grid;
-      grid-template-columns: 1fr 5fr;
+      grid-template-columns: auto 1fr;
+      grid-gap: 10px;
       width: 50%;
-      margin: 10px;
+      margin: 10px 40px;
       align-content: center;
-  }
+      
+}
 
-  .contact-info-container i {
+.contact-info-container i {
     font-size: 35px;
     float: right;
     margin-right: 20px;
     
-  }
+}
 
 .contact-item {
     align-self: center; 
