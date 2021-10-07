@@ -4,6 +4,7 @@ import './Navbar.css';
 import Dropdown from './Dropdown.js';
 // import logo from '../assets/logoholder.png';
 
+
 const Navbar = () => {
 
     const [ click, setClick ] = useState( false );
@@ -18,7 +19,7 @@ const Navbar = () => {
     };
 
     const extendElement = () => {
-        dropdown ? setDropdown(false) : setDropdown(true);
+        dropdown ? setDropdown( false ) : setDropdown( true );
       }
 
     const onMouseEnter = () => {
@@ -38,9 +39,11 @@ const Navbar = () => {
     };
 
 
-    return(
+
+
+return(
         <>
-        <nav className="navbar">
+            <nav className="navbar">
             {/* <Link to="/" className="navbar-logo">
                 <i className='fab fa-r-project'/>
             </Link> */}
@@ -83,10 +86,18 @@ const Navbar = () => {
                 
             </ul>
         </nav>
+      
         </>
-    )
-
-};
+  );
+}
 
 export default Navbar;
+
+
+
+
+
+
+        
+
 

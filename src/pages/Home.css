@@ -1,7 +1,6 @@
 .home-container {
     font-size: 20px;
     line-height: 2.0;
-    height: 100%;
 }
 
 .hero-image {
@@ -10,10 +9,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
+  position: relative;
   }
 
-/* .home-link {
+.home-link {
     font-size: 16px;
     color: white;
     text-decoration: none;
@@ -28,7 +27,7 @@
     background-color: white;
     color: #1F2041;
     border: 1px solid #1F2041;
-  } */
+  }
   
   
   /* Place text in the middle of the image */

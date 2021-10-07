@@ -1,9 +1,6 @@
 .dropdown-menu {
-    /* dropdown menu from navbar > 960  */
-    /* width of elements */
     width: 250px;
     position: absolute;
-    /* starting distance from top (same as navbar height) */
     top: 80px;
     list-style: none;
     text-align: start;
@@ -24,7 +21,6 @@
 }
 
 .dropdown-link {
-    /* dropdown menu links from navbar > 960  */
     display: block;
     width: 100%;
     height: 100%;

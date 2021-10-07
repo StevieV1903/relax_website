@@ -1,7 +1,6 @@
 .service1-container {
     background-color: white;
     font-size: 18px;
-    /* padding-top: 20px; */
     line-height: 1.25;
     text-align: justify;
   }
@@ -12,9 +11,6 @@
     grid-gap: 10px;
     align-items: center;
     margin-bottom: 10px;
-    /* justify-content: center; */
-    /* width: auto;
-    height: auto; */
   }
 
   .relax-kids-logo {
