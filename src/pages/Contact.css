@@ -41,3 +41,16 @@
 .contact-item p {
     margin: 0;   
 }
+
+.email-link {
+  color: white;
+  text-decoration: none;
+}
+
+.email-link:visited {
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}

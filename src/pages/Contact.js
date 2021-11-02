@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact-page-container">
             <div className="sapphire-content">
                 <div className="contact-intro">
-                <h2 className="contact-title">Contact Us...</h2>
+                <h2 className="contact-title">Contact</h2>
                 <p>If you would like to have a chat about any of the services that we deliver, or have a chat about anything from available resources to management techniques or coping strategies, please feel free to contact us using the details below or through any of our social media channels which are accessesible through the links at the bottom of this website. We look forward to hearing from you. </p>
                 </div>
                     <div className="contact-info-container">
@@ -24,7 +24,8 @@ const Contact = () => {
                             <i className='fas fa-envelope'/>
                         </div>
                         <div className="contact-item">
-                            <p>emmav1975@relaxeastlothian.org</p>
+                            {/* <p>emmav1975@relaxeastlothian.org</p> */}
+                            <a className="email-link" href="mailto:emmav1975@relaxeastlothian.org?subject=Relax Kids Enquiry..." target="_blank">Click to send an e-mail</a>
                         </div>
                     </div>
 

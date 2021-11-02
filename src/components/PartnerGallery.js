@@ -14,16 +14,16 @@ const PartnerGallery = () => {
 
             <div className="gallery-container">
                 <div className="logo-container">
-                    <img src={elcLogo} alt="east lothian council"></img>
+                    <img className="partner-logo" src={elcLogo} alt="east lothian council"></img>
                 </div>
                 <div className="logo-container">
-                    <img src={dpsLogo} alt="dunbar primary school"></img>
+                    <img lassName="partner-logo" src={dpsLogo} alt="dunbar primary school"></img>
                 </div>
                 <div className="logo-container">
-                    <img src={elcLogo} alt="east lothian council"></img>
+                    <img lassName="partner-logo" src={elcLogo} alt="east lothian council"></img>
                 </div>
                 <div className="logo-container">
-                    <img src={asLogo} alt="active schools"></img>
+                    <img lassName="partner-logo" src={asLogo} alt="active schools"></img>
                 </div>
 
 

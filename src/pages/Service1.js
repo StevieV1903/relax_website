@@ -28,7 +28,7 @@ const Service1 = () => {
         </p>
         <blockquote>
             I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
-            <span>- Oscar, 9</span>
+            <span>- Billy, age 7</span>
         </blockquote>
         <br></br>
         </div>
@@ -48,7 +48,7 @@ const Service1 = () => {
             <p>Baby Mindful is a new approach to working with parents of young babies and has been created with a range of activities which will stimulate calm whist supporting your baby’s natural development. Baby Mindful classes can help encourage your babies confidence and awareness along with cognitive, communicative, social, emotional and physical development. </p>
             <blockquote>
             I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
-            <span>- Oscar, 9</span>
+            <span>- Oscar, age 9</span>
         </blockquote>
         <br></br>
             </div>
@@ -62,7 +62,7 @@ const Service1 = () => {
             <h2>ChargeUP</h2>
             </div>
             <h3>Suitable for ages 11+</h3>
-            <h3>ChargeUp sessions cover a range of topics from self-awareness, sleep hygiene, to consent, boundaries and stress management.</h3>
+            <h3>Covering a range of topics from self-awareness, sleep hygiene, to consent, boundaries and stress management.</h3>
             <p>Sessions follow our tried and tested 7 step system and include interesting activities, exercises and games to encourage learning, skill acquisition and reinforcement of concepts. ChargeUp sessions give young people mindful tools to help self regulate. Sessions can help reduce stress and anxiety, improve sleep, improve mental health and wellbeing, increase self awareness and empathy, improve learning and performance, increase attention, focus and concentration, improve self-esteem, increase resilience and assertiveness.
             </p>
             <blockquote>
