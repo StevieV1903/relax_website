@@ -42,8 +42,13 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: white;
   }
+
+  .fa-bars:hover {
+    color: #119da4;
+  }
+
   
   .menu-icon {
     display: none;
@@ -129,9 +134,13 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: white;
       font-size: 32px;
     }
+    .fa-times:hover {
+      color: #119da4;
+    }
+    
   }
 
   
