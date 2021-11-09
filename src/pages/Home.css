@@ -42,6 +42,9 @@
   color: white;
   width: 65%;
   }
+  .hero-text h1 {
+
+  }
   
   .hero-title {
     font-family: 'Marcellus SC', serif;
@@ -49,6 +52,11 @@
     margin: 0px;
     padding: 0px;
     line-height: normal;
+    text-align: center;
+  }
+
+  .hero-text p {
+    font-family: 'Encode Sans', sans-serif;
   }
 
   @media screen and (max-width: 960px) {

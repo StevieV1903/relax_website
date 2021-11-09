@@ -7,8 +7,8 @@ const About = () => {
 
     return(
         <div className="about-container">
-        <h2>Relax East Lothian</h2>
-        <hr className="divider"></hr>
+        <h1>Relax East Lothian</h1>
+        {/* <hr className="divider"></hr> */}
         <p>Lectus habitant pellentesque ultrices arcu vehicula arcu vestibulum. Porttitor primis duis dignissim pharetra potenti cras leo porttitor fames phasellus. Dictum ultrices vel nam ut nascetur condimentum habitant magna adipiscing cubilia laoreet eros. </p>
             
         <figure className="fig">

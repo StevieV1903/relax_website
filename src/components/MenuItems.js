@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
-        title: 'Service 1',
-        path: '/service-1',
+        title: 'Relax Kids Services',
+        path: '/relax-kids-services',
         cName: 'dropdown-link'
     },
     {

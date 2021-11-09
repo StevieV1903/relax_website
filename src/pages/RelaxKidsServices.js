@@ -5,7 +5,7 @@ import rkLogo from '../assets/relaxkidsLogo.png';
 import bmLogo from '../assets/bmLogo.png';
 import cuLogo from '../assets/cuLogo.png';
 
-const Service1 = () => {
+const RelaxKidsServices = () => {
 
     return(
 <div className="service1-container">
@@ -58,8 +58,8 @@ const Service1 = () => {
 
         <div className="white-content">
             <div className="relax-kids-container">
-            <img className="relax-kids-logo" src={cuLogo} alt="relax kids" />
-            <h2>ChargeUP</h2>
+                <img className="relax-kids-logo" src={cuLogo} alt="relax kids" />
+                <h2>ChargeUP</h2>
             </div>
             <h3>Suitable for ages 11+</h3>
             <h3>Covering a range of topics from self-awareness, sleep hygiene, to consent, boundaries and stress management.</h3>
@@ -76,4 +76,4 @@ const Service1 = () => {
 
 };
 
-export default Service1;
+export default RelaxKidsServices;
