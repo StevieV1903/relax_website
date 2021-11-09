@@ -29,11 +29,11 @@ const About = () => {
         <p>
         Dui cursus fringilla sem elit montes, mattis consectetur augue penatibus cubilia netus class. Amet vivamus non, elit tincidunt felis amet est. Facilisi hac nisl vel blandit id enim! Nam accumsan nascetur tristique pretium? Facilisi vel eget eget praesent condimentum venenatis! A nunc habitasse, parturient orci. Leo inceptos, duis urna metus inceptos suscipit vel luctus amet lacinia. Pellentesque vel condimentum pulvinar morbi.
         </p>
-        <blockquote>
+        {/* <blockquote>
             I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
             <span>- Oscar, 9</span>
         </blockquote>
-        <br></br>
+        <br></br> */}
         </div>
     )
 

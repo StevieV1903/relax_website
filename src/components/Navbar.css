@@ -7,7 +7,13 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 10;
   }
+
+  
   
   .nav-menu {
     display: grid;
@@ -15,7 +21,6 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    /* width: 85%; */
     width: 70vw;
     justify-content: end;
     margin-right: 30px;

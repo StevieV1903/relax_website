@@ -4,6 +4,7 @@
     line-height: 1.25;
     min-height: 79vh;
     text-align: justify;
+    margin-top: 80px;
   }
 
 .contact-intro {
@@ -53,4 +54,14 @@
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 535px) {
+
+  .contact-info-container {
+    width: 80%;
+    margin: 10px 40px;
+    align-content: center;
+  }
+
 }
