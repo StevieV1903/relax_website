@@ -6,10 +6,11 @@ import asLogo from '../assets/active-schools.jpeg';
 import dpsLogo from '../assets/dps.png';
 
 const PartnerGallery = () => {
+    
 
     return(
         <div className="partner-gallery-container">
-             <h2>Relax East Lothian Partnerships</h2>
+             <h2>Partnerships</h2>
              <p>Relax East Lothian has delivered well-being sessions, to a variety of age groups, in partnership with the following organisations around the county;</p>
 
             <div className="gallery-container">

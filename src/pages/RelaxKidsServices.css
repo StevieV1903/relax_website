@@ -1,0 +1,51 @@
+.service1-container {
+    background-color: white;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: justify;
+    margin-top: 80px;
+  }
+
+  .relax-kids-hero-image {
+    background-image: url("../assets/relaxServicesHero.png");
+    min-height: 50vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: solid 1px black;
+}
+
+  .relax-kids-container{
+    display: grid;
+    grid-template-columns: 110px 1fr 50px;
+    grid-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    /* background-color: grey; */
+    padding: 6px;
+    /* border: solid 1px black;
+    border-radius: 10px;
+    max-height: 200px;
+    transition: height 500ms ease; */
+  }
+
+  /* .relax-kids-container:hover {
+    cursor: pointer;
+  } */
+
+  .relax-kids-logo {
+    width: 100px;
+    justify-self: start;
+  }
+
+  /* .charge-up-title {
+    color: white !important;
+  } */
+
+  /* .expand-plus {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  } */
+

@@ -1,9 +1,23 @@
 .about-container {
     font-size: 18px;
     color: #5a5a5a;
-    padding: 20px;
+    /* padding: 20px; */
     line-height: 1.5;
     min-height: 79vh;
     text-align: justify;
     margin-top: 80px;
+}
+
+.about-hero-image {
+    background-image: url("../assets/aboutHero.png");
+    min-height: 50vh ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom: solid 1px black;
+}
+
+.about-content-container {
+    padding: 15px 40px;
 }
