@@ -1,0 +1,22 @@
+.service-four-container {
+    font-size: 20px;
+    color: #5a5a5a;
+    line-height: 1.5;
+    min-height: 79vh;
+    text-align: justify;
+    margin-top: 80px;
+  }
+  
+  .service-four-hero-image {
+      background-image: url("../assets/serviceFourHero.png");
+      min-height: 50vh ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      border-bottom: solid 1px black;
+    }
+  
+    .service-four-content-container {
+      padding: 15px 40px; 
+    }

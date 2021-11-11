@@ -1,0 +1,22 @@
+.service-three-container {
+    font-size: 20px;
+    line-height: 1.5;
+    min-height: 79vh;
+    color: #5a5a5a;
+    text-align: justify;
+    margin-top: 80px;
+  }
+  
+  .service-three-hero-image {
+      background-image: url("../assets/serviceThreeHero.png");
+      min-height: 50vh ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      border-bottom: solid 1px black;
+    }
+  
+    .service-three-content-container {
+      padding: 15px 40px; 
+    }

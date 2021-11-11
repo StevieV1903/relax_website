@@ -9,9 +9,9 @@ import About from "./pages/About.js";
 import Services from "./pages/Services.js";
 import Contact from "./pages/Contact.js";
 import RelaxKidsServices from "./pages/RelaxKidsServices.js";
-import Service2 from "./pages/Service2.js";
-import Service3 from "./pages/Service3.js";
-import Service4 from "./pages/Service4.js";
+import ServiceTwo from "./pages/ServiceTwo.js";
+import ServiceThree from "./pages/ServiceThree.js";
+import ServiceFour from "./pages/ServiceFour.js";
 
 
 const App = () => {
@@ -25,9 +25,9 @@ const App = () => {
         <Route path="/services" exact component={ Services } />
         <Route path="/contact" exact component={ Contact } />
         <Route path="/relax-kids-services" exact component={ RelaxKidsServices } />
-        <Route path="/service-2" exact component={ Service2 } />
-        <Route path="/service-3" exact component={ Service3 } />
-        <Route path="/service-4" exact component={ Service4 } />
+        <Route path="/service-2" exact component={ ServiceTwo } />
+        <Route path="/service-3" exact component={ ServiceThree } />
+        <Route path="/service-4" exact component={ ServiceFour } />
       </Switch>
       <Footer />
     </Router>

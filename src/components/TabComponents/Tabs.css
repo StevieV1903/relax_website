@@ -35,6 +35,7 @@
     }
   }
   ul.nav li {
+    font-size: 18px;
     width: 50%;
     /* background: #053742; */
     padding: 1rem;

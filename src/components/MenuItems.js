@@ -5,17 +5,17 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Service 2',
+        title: 'Service Two',
         path: '/service-2',
         cName: 'dropdown-link'
     },
     {
-        title: 'Service 3',
+        title: 'Service Three',
         path: '/service-3',
         cName: 'dropdown-link'
     },
     {
-        title: 'Service 4',
+        title: 'Service Four',
         path: '/service-4',
         cName: 'dropdown-link'
     }
