@@ -143,7 +143,7 @@ blockquote{
   margin: 25px auto;
   font-family: 'Schoolbell', cursive;
   color: #5a5a5a;
-  padding: 1.2em 30px 1.2em 75px;
+  padding: 20px 30px 20px 75px;
   border-left: 10px solid #412468 ;
   border-right: 0.5px solid black;
   border-top: 0.5px solid black;
@@ -159,7 +159,7 @@ blockquote::before{
   font-style: italic;
   content: "\201C";
   color:#412468;
-  font-size:6em;
+  font-size: 90px;
   position: absolute;
   left: 10px;
   top:-10px;

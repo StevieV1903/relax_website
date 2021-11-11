@@ -18,34 +18,14 @@
 
   .relax-kids-container{
     display: grid;
-    grid-template-columns: 110px 1fr 50px;
+    grid-template-columns: 110px 1fr;
     grid-gap: 10px;
     align-items: center;
     margin-bottom: 10px;
-    /* background-color: grey; */
-    padding: 6px;
-    /* border: solid 1px black;
-    border-radius: 10px;
-    max-height: 200px;
-    transition: height 500ms ease; */
   }
-
-  /* .relax-kids-container:hover {
-    cursor: pointer;
-  } */
 
   .relax-kids-logo {
     width: 100px;
     justify-self: start;
   }
-
-  /* .charge-up-title {
-    color: white !important;
-  } */
-
-  /* .expand-plus {
-    font-size: 50px;
-    font-weight: bold;
-    color: white;
-  } */
 
