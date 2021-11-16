@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/service-3" exact component={ ServiceThree } />
         <Route path="/service-4" exact component={ ServiceFour } />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
     </div>
   );
