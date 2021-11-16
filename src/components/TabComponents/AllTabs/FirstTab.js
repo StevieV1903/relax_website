@@ -1,5 +1,6 @@
 import React from "react";
 import bmLogo from '../../../assets/bmLogo.png';
+import '../Tabs.css';
 
 
 const FirstTab = () => {

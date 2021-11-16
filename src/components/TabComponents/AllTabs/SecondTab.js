@@ -1,5 +1,6 @@
 import React from "react";
 import rkLogo from '../../../assets/relaxkidsLogo.png';
+import '../Tabs.css';
 
 
 const SecondTab = () => {

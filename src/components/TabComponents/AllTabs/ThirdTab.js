@@ -1,5 +1,6 @@
 import React from "react";
 import cuLogo from '../../../assets/cuLogo.png';
+import '../Tabs.css';
 
 
 const ThirdTab = () => {
@@ -8,7 +9,7 @@ const ThirdTab = () => {
     <div className="ThirdTab">
         <div className="relax-kids-container" >
             <img className="relax-kids-logo" src={cuLogo} alt="relax kids" />
-            <h2 className="charge-up-title">ChargeUP (ages 11+)</h2>
+            <h2>ChargeUP (ages 11+)</h2>
         </div>
             <div className="relax-kids-content">
                 <h3>Covering a range of topics from self-awareness, sleep hygiene, to consent, boundaries and stress management.</h3>
