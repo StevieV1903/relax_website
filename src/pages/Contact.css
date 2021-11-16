@@ -1,14 +1,15 @@
 .contact-page-container {
     font-size: 18px;
     background-color: #175f77;
-    line-height: 1.25;
-    min-height: 79vh;
+    line-height: 1.5;
+    min-height: 90vh;
     text-align: justify;
-    margin-top: 80px;
+
+    /* margin-top: 80px; */
   }
 
   .contact-hero-image {
-      background-image: url("../assets/contactHero.png");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/contactHero.png");
       min-height: 50vh ;
       background-position: center;
       background-repeat: no-repeat;
@@ -20,24 +21,25 @@
   .contact-hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #dadada;
-    width: 65%;
+    top: 80%;
+    left: 5%;
+    /* transform: translate(-60%, -50%); */
+    color: white;
+    border-left: groove 8px #FCDC4D
     }
     
     .contact-hero-title {
       font-family: 'Encode Sans', sans-serif;
-      font-size: 45px;
+      font-size: 36px;
+      font-weight: bold;
       margin: 0px;
-      padding: 0px;
+      padding-left: 30px;
       line-height: normal;
-      text-align: center;
+      text-align: left; 
     }
 
 .contact-intro {
-    padding: 15px 40px;
+    padding: 30px 40px;
   }
 
 .contact-diagonal {

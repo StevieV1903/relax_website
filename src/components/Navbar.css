@@ -2,8 +2,7 @@
 
 .navbar {
     background-color: transparent;
-
-    /* background-color: #1F2041; */
+    /* background-color: rgb(31, 32, 65); */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,7 +15,7 @@
   }
 
   .navbar.active {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+    background-image: linear-gradient(rgba(31, 32, 65, 0.8), rgba(31, 32, 65, 0.8))
   }
   
   .nav-menu {
@@ -40,9 +39,10 @@
   .nav-links {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 16px;
     font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
   }
   
   .nav-links:hover {
@@ -92,6 +92,14 @@
       position: relative;
     }
 
+    .navbar {
+      background-image: linear-gradient(rgba(31, 32, 65, 0.8), rgba(31, 32, 65, 0.8))
+    }
+
+    .navbar.active {
+      background-image: linear-gradient(rgba(31, 32, 65, 0.8), rgba(31, 32, 65, 0.8))
+    }
+
     .nav-menu {
       display: block;
       /* display: flex; */
@@ -100,6 +108,7 @@
       height: 100vh;
       position: absolute;
       top: 80px;
+      /* top: 0px; */
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -119,6 +128,7 @@
       padding: 32px;
       width: 100%;
       display: table;
+      margin: 0;
     }
   
     .nav-links:hover {
@@ -151,6 +161,7 @@
     .fa-times:hover {
       color: #119da4;
     }
+    
     
   }
 

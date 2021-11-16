@@ -34,10 +34,10 @@
 }
 
 @media screen and (max-width: 960px){
-    .dropdown-menu{
+    .dropdown-menu {
         width: 100%;
-        position:absolute;
-        top:150px;
+        position: absolute;
+        top: 150px;
         list-style: none;
         text-align: center;
     }

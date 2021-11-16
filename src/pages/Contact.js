@@ -13,13 +13,13 @@ const Contact = () => {
         <>
         <div className="contact-page-container">
             <div class="contact-hero-image">
-                        {/* <div class="contact-hero-text">
-                            <p className="contact-hero-title">contact us...</p>
-                        </div> */}
+                        <div class="contact-hero-text">
+                            <p className="contact-hero-title">REACH OUT</p>
+                        </div>
             </div>
                 <div className="sapphire-content">
                     <div className="contact-intro">
-                    <h2 className="contact-title">Contact</h2>
+                    {/* <h2 className="contact-title">Contact</h2> */}
                     <p>If you would like to have a chat about any of the services that we deliver, potential collaborations or partnerships, or just to have a chat about anything from available resources to management techniques or coping strategies, please feel free to contact us using the details below or through any of our social media channels which are accessesible through the links at the bottom of this website. We look forward to hearing from you. </p>
                     </div>
                         <div className="contact-info-container">
