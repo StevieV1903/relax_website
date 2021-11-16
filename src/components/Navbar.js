@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown.js';
-// import logo from '../assets/logoholder.png';
+import relaxELLogo from '../assets/relaxELLOGO.png';
 
 
 const Navbar = () => {
@@ -55,9 +55,9 @@ const Navbar = () => {
 return(
         <>
             <nav className={ isNavbarActive ? "navbar active" : "navbar" }>
-            {/* <Link to="/" className="navbar-logo">
-                <i className='fab fa-r-project'/>
-            </Link> */}
+            <Link to="/" className="navbar-logo">
+                <img src={ relaxELLogo } className='navbar-logo' alt="relax east lothian" />
+            </Link>
 
             <div className="menu-icon" onClick={ handleClick }>
                 <i className={ click ? 'fas fa-times' : 'fas fa-bars' } />

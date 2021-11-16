@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="contact-page-container">
             <div class="contact-hero-image">
                         <div class="contact-hero-text">
-                            <p className="contact-hero-title">REACH OUT</p>
+                            <p className="contact-hero-title">contact</p>
                         </div>
             </div>
                 <div className="sapphire-content">

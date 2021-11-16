@@ -24,7 +24,7 @@
     left: 5%;
     /* transform: translate(-60%, -50%); */
     color: white;
-    border-left: groove 8px #FCDC4D
+    border-left: groove 8px #FCDC4D;
     }
 
 .about-hero-title { 
@@ -35,6 +35,7 @@
     padding-left: 30px;
     line-height: normal;
     text-align: left; 
+    
 }
 
 .about-content-container {
