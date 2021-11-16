@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Wire+One&display=swap');
 
 .navbar {
-    background-color: #1F2041;
+    background-color: transparent;
+
+    /* background-color: #1F2041; */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -11,6 +13,10 @@
     top: 0; 
     width: 100%; 
     z-index: 10;
+  }
+
+  .navbar.active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
   }
   
   .nav-menu {

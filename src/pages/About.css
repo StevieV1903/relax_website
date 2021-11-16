@@ -5,17 +5,35 @@
     line-height: 1.5;
     min-height: 79vh;
     text-align: justify;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .about-hero-image {
-    background-image: url("../assets/aboutHero.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/aboutHero.png");
     min-height: 50vh ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     border-bottom: solid 1px black;
+}
+.about-hero-text {
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    transform: translate(-60%, -50%);
+    color: white;
+    border-left: solid 8px #FCDC4D
+    }
+
+.about-hero-title { 
+    font-family: 'Marcellus SC', serif;
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 30px;
+    line-height: normal;
+    text-align: left; 
 }
 
 .about-content-container {

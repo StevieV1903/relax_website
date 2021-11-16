@@ -9,6 +9,7 @@ const Navbar = () => {
 
     const [ click, setClick ] = useState( false );
     const [ dropdown, setDropdown ] = useState( false );
+    const [ isNavbarActive, setIsNavbarActive] = useState( false );
 
     const handleClick = () => {
         setClick( !click )
@@ -38,12 +39,22 @@ const Navbar = () => {
         }
     };
 
+    const changeNavbarBackground = () => {
+        if( window.scrollY >= 80 ) {
+            setIsNavbarActive( true )
+        } else {
+            setIsNavbarActive( false )
+        }
+    };
+
+    window.addEventListener( 'scroll', changeNavbarBackground )
+
 
 
 
 return(
         <>
-            <nav className="navbar">
+            <nav className={ isNavbarActive ? "navbar active" : "navbar" }>
             {/* <Link to="/" className="navbar-logo">
                 <i className='fab fa-r-project'/>
             </Link> */}

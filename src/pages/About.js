@@ -14,12 +14,12 @@ const About = () => {
     return(
         <div className="about-container">
             <div class="about-hero-image">
-                        <div class="hero-text">
-                            {/* <h1 className="hero-title">chat with us...</h1> */}
+                        <div class="about-hero-text">
+                            <h1 className="about-hero-title">ABOUT US...</h1>
                         </div>
             </div>
             <div className="about-content-container">
-                <h2>Relax East Lothian</h2>
+                {/* <h2>Relax East Lothian</h2> */}
                 {/* <hr className="divider"></hr> */}
                 <p>Lectus habitant pellentesque ultrices arcu vehicula arcu vestibulum. Porttitor primis duis dignissim pharetra potenti cras leo porttitor fames phasellus. Dictum ultrices vel nam ut nascetur condimentum habitant magna adipiscing cubilia laoreet eros. </p>
                     
