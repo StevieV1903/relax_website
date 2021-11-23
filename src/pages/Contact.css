@@ -10,7 +10,7 @@
 
   .contact-hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/contactHero.png");
-      min-height: 50vh ;
+      min-height: 55vh ;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -25,7 +25,7 @@
     left: 5%;
     /* transform: translate(-60%, -50%); */
     color: white;
-    border-left: groove 8px #FCDC4D
+    border-left: groove 20px #FCDC4D
     }
     
     .contact-hero-title {

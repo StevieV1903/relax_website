@@ -40,4 +40,15 @@
       .service-three-content-container {
         padding: 30px 40px; 
       }
+
+      .purple-heart-icon {
+        /* display: inline; */
+        height: 100px;
+        float: left;
+        margin: 20px;
+      }
+
+      /* .opening-text-service-three {
+        display: inline;
+      } */
     

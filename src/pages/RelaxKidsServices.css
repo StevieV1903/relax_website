@@ -23,11 +23,12 @@
   left: 5%;
   /* transform: translate(-60%, -50%); */
   color: white;
-  border-left: groove 8px #FCDC4D
+  /* border-left: groove 8px #FCDC4D */
   }
 
 .relax-kids-hero-title { 
   /* font-family: 'Marcellus SC', serif; */
+  display: inline;
   font-family: 'Encode Sans', sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -38,7 +39,7 @@
 }
 
 .relax-kids-content {
-  padding: 2px 40px 0px 40px;
+  padding: 30px 40px 0px 40px;
 }
 
   .relax-kids-container{
@@ -54,3 +55,7 @@
     justify-self: start;
   }
 
+  .rainbow-icon {
+    display: inline;
+    height: 50px;
+  }

@@ -10,6 +10,7 @@ const ServiceFour = () => {
                     <div class="service-four-hero-text">
                         <h1 className="service-four-hero-title">service 4 title</h1>
                     </div>
+                    <div className="white-diagonal"></div>
                 </div>
                     <div className="service-four-content-container">
                         {/* <h2 className="service-four-title">This is the service4 page</h2> */}

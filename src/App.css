@@ -52,8 +52,8 @@
 .white-diagonal{
    width: 0;
    height:0;
-   position:absolute;
-   bottom:0px;
+   position: absolute;
+   bottom: 0px;
    border-bottom: 50px solid white;
    border-left: 100vw solid transparent;
 }
