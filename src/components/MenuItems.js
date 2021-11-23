@@ -5,13 +5,13 @@ export const MenuItems = [
         cName: 'dropdown-link'
     },
     {
-        title: 'Service Two',
-        path: '/service-2',
+        title: 'Story Massage',
+        path: '/story-massage',
         cName: 'dropdown-link'
     },
     {
-        title: 'Service Three',
-        path: '/service-3',
+        title: 'EFT (Tapping)',
+        path: '/eft-tapping',
         cName: 'dropdown-link'
     },
     {

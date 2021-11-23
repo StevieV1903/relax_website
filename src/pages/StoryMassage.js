@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import './ServiceTwo.css';
+import './StoryMassage.css';
 
-const ServiceTwo = () => {
+const StoryMassage = () => {
 
     return(
         <div className="service-two-container">
@@ -30,4 +30,4 @@ const ServiceTwo = () => {
 
 };
 
-export default ServiceTwo;
+export default StoryMassage;

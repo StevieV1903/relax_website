@@ -55,8 +55,8 @@
   .hero-text p {
     font-family: 'Encode Sans', sans-serif;
   }
-  
-  .social-menu {
+
+  .home-social-panel .social-menu  {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
@@ -67,17 +67,18 @@
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* width: 65%; */
-}
-
-.social-item {
-    display: flex;
-    align-items: center;
-}
-
-.social-media-logo {
+  }
+  
+  .home-social-panel {
+    /* display: flex;
+    align-items: center; */
+    margin: auto auto;
+  }
+  
+  .home-social-panel .social-media-logo {
   height: 45px;
-}
+  }
+  
 
   @media screen and (max-width: 960px) {
     .hero-image {

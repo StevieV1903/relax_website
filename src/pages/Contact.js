@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../App.css';
 import './Contact.css';
 import PartnerGallery from '../components/PartnerGallery.js';
+import SocialMediaPanel from '../components/SocialMediaPanel';
 
 const Contact = () => {
 
@@ -20,8 +21,9 @@ const Contact = () => {
                 <div className="sapphire-content">
                     <div className="contact-intro">
                     {/* <h2 className="contact-title">Contact</h2> */}
-                    <p>If you would like to have a chat about any of the services that we deliver, potential collaborations or partnerships, or just to have a chat about anything from available resources to management techniques or coping strategies, please feel free to contact us using the details below or through any of our social media channels which are accessesible through the links at the bottom of this website. We look forward to hearing from you. </p>
+                    <p>If you would like to have a chat about any of the services that we deliver, potential collaborations or partnerships, or just to have a chat about anything from available resources to management techniques or coping strategies, please feel free to contact us using the details below or through any of our social media channels  which are accessesible through the links below. We look forward to hearing from you. </p>
                     </div>
+                    <div className="contact-social-container">
                         <div className="contact-info-container">
                             <div className="contact-item">
                             <i className='fas fa-phone'/>
@@ -37,6 +39,10 @@ const Contact = () => {
                                 <a className="email-link" href="mailto:emmav1975@relaxeastlothian.org?subject=Relax Kids Enquiry..." target="_blank">Click to send an e-mail</a>
                             </div>
                         </div>
+                            <div className="contact-social-panel">
+                            <SocialMediaPanel />
+                            </div>
+                    </div>
 
             
                 </div>

@@ -1,0 +1,22 @@
+
+/* .social-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-logo {
+  height: 45px;
+} */

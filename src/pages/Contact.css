@@ -48,22 +48,24 @@
     border-bottom: 50px solid white;
     border-left: 100vw solid transparent;
   }
+  .contact-social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
 .contact-info-container {
       display: grid;
       grid-template-columns: auto 1fr;
       grid-gap: 10px;
-      width: 50%;
+      /* width: 50%; */
       margin: 10px 40px;
-      align-content: center;
-      
+      align-content: center;   
 }
 
 .contact-info-container i {
     font-size: 35px;
     float: right;
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
 
 .contact-item {
@@ -85,6 +87,29 @@
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.contact-social-panel .social-menu  {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  /* position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.contact-social-panel {
+  /* display: flex;
+  align-items: center; */
+  margin: auto auto;
+}
+
+.contact-social-panel .social-media-logo {
+height: 55px;
 }
 
 @media screen and (max-width: 535px) {

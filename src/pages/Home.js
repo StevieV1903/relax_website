@@ -2,10 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import facebook from '../assets/facebookLogoWhite.png'
-import twitter from '../assets/twitterLogoWhite.png'
-import linkedin from '../assets/linkedinLogoWhite.png'
-import instagram from '../assets/instagramLogoWhite.png'
+import SocialMediaPanel from '../components/SocialMediaPanel';
 
 const Home = () => {
 
@@ -22,20 +19,9 @@ const Home = () => {
                             </Link>
                         </div> */}
                     </div>
-                    <ul className="social-menu">
-                        <li className="social-item">
-                        <a href="#" className="social-link"><img src={facebook} className="social-media-logo" alt="facebook" /></a>        
-                        </li>
-                        <li className="social-item">
-                        <a href="#" className="social-link"><img src={twitter} className="social-media-logo" alt="twitter" /></a>  
-                        </li>
-                        <li className="social-item">
-                        <a href="#" className="social-link"><img src={linkedin} className="social-media-logo" alt="linked In" /></a>       
-                        </li>
-                        <li className="social-item">
-                        <a href="#" className="social-link"><img src={instagram} className="social-media-logo" alt="instagram" /></a>      
-                        </li>
-                    </ul>
+                    <div className="home-social-panel">
+                    <SocialMediaPanel />
+                    </div>
                 </div>
 
         </div>
