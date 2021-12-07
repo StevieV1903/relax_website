@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './StoryMassage.css';
+import bestPracticeLogo from '../assets/smBestPracticeAward.png'
 
 const StoryMassage = () => {
 
@@ -25,8 +26,9 @@ const StoryMassage = () => {
                 There is also an educational element as the Story Massage Programme can be used to fit in with the national curriculum. Many children have learnt their numbers and letters, plus history, geography and nature through massage stories.
                 </p>
                 <p>
-                In December 2021 I was awarded the Stoy Massage "Best Practice Award" for sharing the many benefits of the Story Massage Programme in a respectful and meaningful way in a variety of settings, showing the versatility, creativity, and fun of the programme for people of all ages and abilities.  
+                <img className="best-practice-logo" src={bestPracticeLogo} alt="best practice award" /> In December 2021 I was awarded the Stoy Massage "Best Practice Award" for sharing the many benefits of the Story Massage Programme in a respectful and meaningful way in a variety of settings, showing the versatility, creativity, and fun of the programme for people of all ages and abilities.  
                 </p>
+                <p>Click <b><a href="https://www.storymassage.co.uk/best-practice-award-winners-december-2021/">here</a></b> for more information on this award.</p>
             </div>
         </div>
     )

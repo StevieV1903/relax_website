@@ -41,3 +41,8 @@
 .service-two-content-container {
   padding: 30px 40px; 
 }
+.best-practice-logo {
+  height: 150px;
+  padding: 5px 20px;
+  float: left;
+}
