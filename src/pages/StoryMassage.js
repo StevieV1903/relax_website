@@ -24,6 +24,9 @@ const StoryMassage = () => {
                 <p>
                 There is also an educational element as the Story Massage Programme can be used to fit in with the national curriculum. Many children have learnt their numbers and letters, plus history, geography and nature through massage stories.
                 </p>
+                <p>
+                In December 2021 I was awarded the Stoy Massage "Best Practice Award" for sharing the many benefits of the Story Massage Programme in a respectful and meaningful way in a variety of settings, showing the versatility, creativity, and fun of the programme for people of all ages and abilities.  
+                </p>
             </div>
         </div>
     )

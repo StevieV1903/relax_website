@@ -13,8 +13,9 @@
     z-index: 10;
   }
 
+  /* This class is for the navbar scroll from transparent to color */
   .navbar.active {
-    background-image: linear-gradient(rgba(31, 32, 65, 0.9), rgba(31, 32, 65, 0.9))
+    background-image: linear-gradient(rgba(31, 32, 65, 0.9), rgba(31, 32, 65, 0.9));
   }
   
   .nav-menu {
@@ -79,11 +80,12 @@
 
     .navbar {
       background-color: #242222
+      /* background-color: transparent; */
     }
-
+/* This class is to remove transparency of navbar on mobile devices */
     .navbar.active {
       background-image: none;
-      background-color: #242222
+      background-color: #242222;
     }
 
     .nav-menu {

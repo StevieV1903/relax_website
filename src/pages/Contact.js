@@ -29,7 +29,7 @@ const Contact = () => {
                             <i className='fas fa-phone'/>
                             </div>
                             <div className="contact-item">
-                                <p>(07730) 507 902</p>
+                                <p>Mob: (07730) 507 902</p>
                             </div>
                             <div className="contact-item">
                                 <i className='fas fa-envelope'/>
