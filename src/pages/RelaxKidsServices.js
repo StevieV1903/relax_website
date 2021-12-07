@@ -14,6 +14,7 @@ const RelaxKidsServices = () => {
                             <img className="rainbow-icon" src={Rainbow} alt="rainbow" />
                             <h1 className="relax-kids-hero-title">relax kids services</h1>
                         </div>
+                        <div className="white-diagonal"></div>
         </div>
         {/* <div className="white-content"> */}
         {/* <h1>Relax Kids Services</h1> */}

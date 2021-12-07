@@ -8,18 +8,18 @@
 
   .relax-kids-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/relaxServicesHero.png");
-    min-height: 50vh ;
+    min-height: 55vh ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border-bottom: solid 1px black;
+    /* border-bottom: solid 1px black; */
 }
 
 .relax-kids-hero-text {
   text-align: center;
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 5%;
   /* transform: translate(-60%, -50%); */
   color: white;

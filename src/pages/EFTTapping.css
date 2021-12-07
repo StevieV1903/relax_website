@@ -9,7 +9,7 @@
   
   .service-three-hero-image {
       background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/serviceThreeHero.png");
-      min-height: 50vh ;
+      min-height: 55vh ;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;

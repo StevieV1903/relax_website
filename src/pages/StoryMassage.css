@@ -9,7 +9,7 @@
 
 .service-two-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/service2Hero.png");
-    min-height: 50vh ;
+    min-height: 55vh ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,4 +45,16 @@
   height: 150px;
   padding: 5px 20px;
   float: left;
+}
+.video-container {
+  padding:56.25% 0 0 0;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:50%;
 }
