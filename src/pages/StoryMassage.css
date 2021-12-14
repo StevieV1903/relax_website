@@ -47,14 +47,18 @@
   float: left;
 }
 .video-container {
-  padding:56.25% 0 0 0;
-  position: relative;
+  height: fit-content;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .video-container iframe {
-  position: absolute;
-  top:0;
-  left:0;
-  width:50%;
-  height:50%;
+  border: 1px solid black;
+  border-radius: 4px;
+
+
+  
 }
