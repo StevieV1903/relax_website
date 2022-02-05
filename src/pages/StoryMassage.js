@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import './StoryMassage.css';
 import bestPracticeLogo from '../assets/smBestPracticeAward.png'
+import ReturnToTopBtn from '../components/ReturnToTopBtn';
 import rkhr from '../assets/rkhr.png'
 
 const StoryMassage = () => {
@@ -38,6 +39,7 @@ const StoryMassage = () => {
 
                 
                 <img className="rkhr" src={rkhr} alt="break" />
+                <ReturnToTopBtn />
             </div>
             <hr></hr>
         </div>

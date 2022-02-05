@@ -12,6 +12,8 @@ import RelaxKidsServices from "./pages/RelaxKidsServices.js";
 import StoryMassage from "./pages/StoryMassage.js";
 import EFTTapping from "./pages/EFTTapping.js";
 import ServiceFour from "./pages/ServiceFour.js";
+import Gallery from "./pages/Gallery.js";
+
 
 
 const App = () => {
@@ -23,6 +25,7 @@ const App = () => {
         <Route path="/" exact component={ Home } />
         <Route path="/about" exact component={ About } />
         <Route path="/services" exact component={ Services } />
+        <Route path="/gallery" exact component={Gallery} />
         <Route path="/contact" exact component={ Contact } />
         <Route path="/relax-kids-services" exact component={ RelaxKidsServices } />
         <Route path="/story-massage" exact component={ StoryMassage } />
