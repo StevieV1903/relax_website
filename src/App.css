@@ -178,11 +178,15 @@ blockquote::after{
   content: '';
 }
 
-blockquote span{
+blockquote span {
   display: block;
   color: #5a5a5a;
   font-style: normal;
   font-weight: bold;
   margin-top: 10px;
   font-family: 'Schoolbell', cursive;
+}
+.slider-image {
+  width: 800px;
+  height: 600px;
 }
