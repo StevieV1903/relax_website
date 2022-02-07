@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/eft-tapping" exact component={ EFTTapping } />
         <Route path="/service-4" exact component={ ServiceFour } />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
     </div>
   );

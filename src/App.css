@@ -71,9 +71,11 @@ html {
 }
 
 hr {
-  border-top: 15px solid #1F2041;
+  width: 70%;
+  margin: 0 auto;
+  /* border-top: 15px solid #1F2041; */
   /* border-radius: 5px; */
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
 }
 
 .rkhr {
