@@ -7,7 +7,7 @@ import ThirdTab from "./AllTabs/ThirdTab";
 
 const Tabs = () => {
 
-    const [activeTab, setActiveTab] = useState("tab1");
+    const [activeTab, setActiveTab] = useState("tab2");
 
     const handleTab1 = () => {
         setActiveTab("tab1");

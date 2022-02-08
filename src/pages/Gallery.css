@@ -1,7 +1,5 @@
 .slider-gallery-container {
-    background-color: black;
-    
-    
+    background-color: black;  
 }
 
 .slider {
@@ -12,15 +10,14 @@
     align-items: center;  
 }
 
-
 .slider-image {
-    width: 1000px;
-    height: 600px;
+    width: 70vw;
+    height: 65vh;
     border-radius: 20px;
     margin-top: 100px;
   }
 
-  .slider-image-caption {
+.slider-image-caption {
     /* position: absolute;
     bottom: 10%;
     font-size: 1.5rem;
@@ -39,11 +36,9 @@
     color: white;
     padding: 5px 10px;
     font-size: 16px;
-    text-align: center;
-  
+    text-align: center; 
 }
   
-
 .fa-chevron-circle-right {
       position: absolute;
       top: 50%;
@@ -53,10 +48,9 @@
       z-index: 10;
       cursor: pointer;
       user-select: none;
-    
   }
 
-  .fa-chevron-circle-left {
+.fa-chevron-circle-left {
     position: absolute;
     top: 50%;
     left: 32px;

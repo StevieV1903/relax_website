@@ -189,3 +189,26 @@ blockquote span {
   font-family: 'Schoolbell', cursive;
 }
 
+.home-social-panel .social-menu  {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-social-panel {
+  /* display: flex;
+  align-items: center; */
+  margin: auto auto;
+}
+
+.home-social-panel .social-media-logo {
+height: 45px;
+}
+

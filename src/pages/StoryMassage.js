@@ -39,6 +39,10 @@ const StoryMassage = () => {
 
                 
                 <img className="rkhr" src={rkhr} alt="break" />
+                <blockquote>
+                    I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
+                <span>- Oscar, age 9</span>
+                </blockquote>
                 <ReturnToTopBtn />
             </div>
             <hr></hr>

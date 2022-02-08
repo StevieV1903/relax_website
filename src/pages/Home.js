@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import SocialMediaPanel from '../components/SocialMediaPanel';
+// import SocialMediaPanel from '../components/SocialMediaPanel';
 
 const Home = () => {
 
@@ -19,9 +19,9 @@ const Home = () => {
                             </Link>
                         </div>
                     </div> */}
-                    <div className="home-social-panel">
+                    {/* <div className="home-social-panel">
                     <SocialMediaPanel />
-                    </div>
+                    </div> */}
                 </div>
 
         </div>

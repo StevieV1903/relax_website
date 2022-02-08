@@ -42,7 +42,8 @@
     padding: 10px 20px;
     margin: 16px;
     font-family: 'Encode Sans', sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 16px;
   }
   
   .nav-links:hover {

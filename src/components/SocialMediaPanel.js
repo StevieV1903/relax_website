@@ -5,6 +5,8 @@ import twitter from '../assets/twitterLogoWhite.png'
 import linkedin from '../assets/linkedinLogoWhite.png'
 import instagram from '../assets/instagramLogoWhite.png'
 
+import './SocialMediaPanel.css';
+
 
 const SocialMediaPanel = () => {
 

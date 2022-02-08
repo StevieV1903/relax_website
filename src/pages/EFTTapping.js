@@ -22,10 +22,15 @@ const EFTTapping = () => {
 
                 <p>In a similar way to acupuncture, EFT looks to release blocked energy by stimulating the meridian points. Rather than using needles, however, this therapy uses tapping techniques. Tapping (using the fingertips) on certain points on the body, combined with voicing positive affirmations is thought to neutralise the emotional block in energy.
                 </p>
+                <blockquote>
+                    I had a really fun and relaxing time. Emma is a wonderful teacher who really looks after us and I want to do this every week to help me when I get annoyed.
+                <span>- Oscar, age 9</span>
+                </blockquote>
 
                 <p>EFT aims to tackle both negative emotions and unbalanced or blocked energy. This is done by tapping meridian points on the body while focusing on the issue and repeating positive affirmations.</p>
 
                 <p>This combination of stimulating meridian points whilst thinking about root cause enables the energy system to 'straighten out'. This is believed to eradicate the 'short circuit' to the body's learnt response or negative emotion.</p>
+                
             </div>
         </div>
     )

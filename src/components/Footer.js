@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
 
+import SocialMediaPanel from '../components/SocialMediaPanel';
+
 const Footer = () => {
 
     return(
@@ -9,17 +11,17 @@ const Footer = () => {
                 <div className="footer-row">
                     {/* column1 */}
                     <div className="footer-col">
-                        <h4>TITLE</h4>
-                        <ul className="footer-list">
-                            <li>footer lister</li>
-                            <li>footer lister</li>
-                            <li>footer lister</li>
+                        <h4>OUR SERVICES</h4>
+                            <ul className="footer-list">
+                                <li>relax kids services</li>
+                                <li>story massage</li>
+                                <li>eft - tapping</li>
 
-                        </ul>
+                            </ul> 
                     </div>
                     {/* column2 */}
                     <div className="footer-col">
-                        <h4>TITLE</h4>
+                    <h4>TITLE</h4>
                         <ul className="footer-list">
                             <li>footer lister</li>
                             <li>footer lister</li>
@@ -29,19 +31,22 @@ const Footer = () => {
                     </div>
                     {/* column3 */}
                     <div className="footer-col">
-                        <h4>TITLE</h4>
+                        <h4>CONTACT US</h4>
                         <ul className="footer-list">
-                            <li>footer lister</li>
-                            <li>footer lister</li>
-                            <li>footer lister</li>
+                            <li>privacy statement</li>
+                            <li>terms of service</li>
+                            {/* <li>Dunbar, East Lothian</li> */}
 
                         </ul>
 
                     </div>
+                    <div className="footer-social-panel">
+                    <SocialMediaPanel />
+                    </div>
                 </div>
                 <hr />
                 <div className="footer-row-bottom">
-                    <p>&copy;{new Date().getFullYear()} Relax East Lothian | All Rights Reserved | Terms of Service | Privacy Statement</p>
+                    <p>&copy;{new Date().getFullYear()} Relax East Lothian | All Rights Reserved | Website created by StevieV1903</p>
 
                 </div>
             </div>
