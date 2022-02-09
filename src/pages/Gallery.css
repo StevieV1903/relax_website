@@ -8,22 +8,19 @@
     display: flex;
     justify-content: center;
     align-items: center;  
+    margin:0;
+    padding: 150px 0 50px 0 ;
 }
 
 .slider-image {
     width: 70vw;
-    height: 65vh;
+    /* height: 65vh; */
+    /* min-height: 40vh; */
     border-radius: 20px;
-    margin-top: 100px;
+    /* margin-top: 80px; */
   }
 
 .slider-image-caption {
-    /* position: absolute;
-    bottom: 10%;
-    font-size: 1.5rem;
-    color: white;
-    z-index: 10; */
-
     position: absolute;
     bottom: 1em;
     left: 0;
@@ -35,7 +32,7 @@
     width: 100%;
     color: white;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center; 
 }
   
@@ -73,7 +70,3 @@
     transform: scale(1.10);
 }
 
-.footer-row-bottom{
-    padding: 20px;
-    text-align: center;
-}

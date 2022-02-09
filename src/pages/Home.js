@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import './Home.css';
 // import SocialMediaPanel from '../components/SocialMediaPanel';
 
 const Home = () => {
+
+    useEffect(()=> {
+        window.scrollTo( 0, 0 )
+    });
 
     return(
         <div className="home-container">

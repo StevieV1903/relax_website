@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import './EFTTapping.css';
 import PurpleHeart from '../assets/purple-heart.png';
 
 const EFTTapping = () => {
+
+    useEffect(()=> {
+        window.scrollTo( 0, 0 )
+    });
 
     return(
         <div className="service-three-container">

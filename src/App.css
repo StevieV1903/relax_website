@@ -145,11 +145,11 @@ figure > .image-caption-text {
   width: 100%;
   color: white;
   padding: 5px 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 blockquote{
-  font-size: 20px;
+  font-size: 18px;
   width: 95%;
   margin: 25px auto;
   font-family: 'Schoolbell', cursive;
@@ -189,26 +189,4 @@ blockquote span {
   font-family: 'Schoolbell', cursive;
 }
 
-.home-social-panel .social-menu  {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 20px;
-  list-style: none;
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.home-social-panel {
-  /* display: flex;
-  align-items: center; */
-  margin: auto auto;
-}
-
-.home-social-panel .social-media-logo {
-height: 45px;
-}
 

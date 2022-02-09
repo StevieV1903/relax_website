@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-row">
                     {/* column1 */}
                     <div className="footer-col">
-                        <h4>OUR SERVICES</h4>
+                        <h4 className="footer-service-title" >OUR SERVICES</h4>
                             <ul className="footer-list">
                                 <li>relax kids services</li>
                                 <li>story massage</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     {/* column2 */}
                     <div className="footer-col">
-                    <h4>TITLE</h4>
+                    <h4 className="footer-service-title">TITLE</h4>
                         <ul className="footer-list">
                             <li>footer lister</li>
                             <li>footer lister</li>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     {/* column3 */}
                     <div className="footer-col">
-                        <h4>CONTACT US</h4>
+                        <h4 className="footer-service-title">CONTACT US</h4>
                         <ul className="footer-list">
                             <li>privacy statement</li>
                             <li>terms of service</li>

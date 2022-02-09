@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import './StoryMassage.css';
 import bestPracticeLogo from '../assets/smBestPracticeAward.png'
@@ -6,6 +6,10 @@ import ReturnToTopBtn from '../components/ReturnToTopBtn';
 import rkhr from '../assets/rkhr.png'
 
 const StoryMassage = () => {
+
+    useEffect(()=> {
+        window.scrollTo( 0, 0 )
+    });
 
     return(
         <div className="service-two-container">
@@ -45,7 +49,7 @@ const StoryMassage = () => {
                 </blockquote>
                 <ReturnToTopBtn />
             </div>
-            <hr></hr>
+            {/* <hr></hr> */}
         </div>
     )
 

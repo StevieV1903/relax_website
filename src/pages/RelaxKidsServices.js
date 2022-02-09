@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Tabs from '../components/TabComponents/Tabs.js';
 import '../App.css';
@@ -6,6 +6,10 @@ import './RelaxKidsServices.css';
 import Rainbow from '../assets/rainbow_img.png'
 
 const RelaxKidsServices = () => {
+
+    useEffect(()=> {
+        window.scrollTo( 0, 0 )
+    });
 
     return(
 <div className="service1-container">

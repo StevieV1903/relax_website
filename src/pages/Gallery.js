@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 import './Gallery.css';
 // import ImageSlider from '../components/ImageSlider.js'
@@ -9,28 +9,32 @@ import image4 from '../assets/service2Hero.png';
 
 const Gallery = () => {
 
+    useEffect(()=> {
+        window.scrollTo( 0, 0 )
+    });
+
     const [ currentSlide, setCurrentSlide ] = useState(0);
 
     const imageSliderData = [
         {
             image: image1,
-            caption: 'image caption number 1',
-            alt: 'description'
+            caption: 'beach, sea and sky',
+            alt: 'beach scene'
         },
         {
             image: image2,
-            caption: 'image caption number 2',
-            alt: 'description'
+            caption: 'beach, sea and birds',
+            alt: 'beach with birds'
         },
         {
             image: image3,
-            caption: 'image caption number 3',
-            alt: 'description'
+            caption: 'bridge to nowhere',
+            alt: 'bridge to nowhere'
         },
         {
             image: image4,
-            caption: 'image caption number 4',
-            alt: 'description'
+            caption: 'poppy field in the sunshine',
+            alt: 'poppy field'
         }
     ]
 
@@ -58,7 +62,7 @@ const Gallery = () => {
             ></i>
             <div className="slider">
             {imageSliderData.map(( slide, index )=> {
-                console.log(slide.image)
+                // console.log(slide.image)
                 
                 return(
                     <div className={ index === currentSlide ? 'slide active' : 'slide' } key={index}>

@@ -67,6 +67,7 @@
   .FirstTab p, .SecondTab p, .ThirdTab p {
   /* font-size: 2rem; */
   text-align: justify;
+  font-size: 15px;
 }
 
 /* .ThirdTab {
@@ -75,3 +76,4 @@
   padding: 10px;
   border-radius: 4px;
 } */
+

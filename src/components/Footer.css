@@ -11,17 +11,24 @@
 .footer-row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 10px 200px 20px 200px;
+    margin: 10px 200px 30px 200px;
     text-align: left;
     
 }
+
+.footer-service-title{ 
+    font-family: 'Encode Sans', sans-serif ;
+    font-size: 14px;
+}
 .footer-list {
     list-style-type: none;
-    font-size: 13px;
+    font-size: 14px;
     
 }
 .footer-row-bottom {
     font-size: 13px;
+    padding: 20px;
+    text-align: center;
 }
 
 .footer-social-panel .social-menu  {
@@ -47,6 +54,7 @@
   .footer-social-panel .social-media-logo {
   height: 40px;
   }
+
 
 
 

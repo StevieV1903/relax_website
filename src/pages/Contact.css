@@ -1,5 +1,5 @@
 .contact-page-container {
-    font-size: 18px;
+    font-size: 16px;
     background-color: #175f77;
     line-height: 1.5;
     min-height: 90vh;
@@ -109,7 +109,7 @@
 }
 
 .contact-social-panel .social-media-logo {
-height: 55px;
+height: 50px;
 }
 
 @media screen and (max-width: 535px) {
