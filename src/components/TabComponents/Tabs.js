@@ -27,13 +27,13 @@ const Tabs = () => {
             {/* Tab nav */}
             <ul className="nav">
                 <li className={activeTab === "tab1" ? "active" : ""} onClick={handleTab1}>
-                    Baby Mindful (0 - 18mths)
+                    Baby Mindful (0-18mths)
                 </li>
                 <li className={activeTab === "tab2" ? "active" : ""} onClick={handleTab2}>
                     Relax Kids (ages 3+)
                 </li>
                 <li className={activeTab === "tab3" ? "active" : ""} onClick={handleTab3}>
-                    Charge Up (ages 11+)
+                    ChargeUp (ages 11+)
                 </li>
             </ul>
             <div className="outlet">
