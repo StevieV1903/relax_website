@@ -83,13 +83,24 @@ hr {
   transform: scaleX(-1);
 }
 
-.service3, .service4 {
-  font-size: 20px;
-  padding: 30px;
+.privacy-container {
+  background-color: white;
+  font-size: 16px;
   line-height: 1.5;
-  min-height: 79vh;
+  min-height: 100vh;
   text-align: justify;
-  margin-top: 80px;
+  
+}
+
+.privacy-content-container {
+  padding: 100px 30px 30px 30px; 
+}
+
+.nav-block {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: #1F2041;
 }
 
 h1 {

@@ -13,6 +13,7 @@ import StoryMassage from "./pages/StoryMassage.js";
 import EFTTapping from "./pages/EFTTapping.js";
 import ServiceFour from "./pages/ServiceFour.js";
 import Gallery from "./pages/Gallery.js";
+import Privacy from './pages/Privacy';
 
 
 
@@ -31,6 +32,9 @@ const App = () => {
         <Route path="/story-massage" exact component={ StoryMassage } />
         <Route path="/eft-tapping" exact component={ EFTTapping } />
         <Route path="/service-4" exact component={ ServiceFour } />
+        <Route path="/privacy" exact component={ Privacy } />
+        {/* <Route path="/terms" exact component={ Terms } /> */}
+
       </Switch>
       <Footer />
     </Router>
