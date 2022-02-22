@@ -12,6 +12,26 @@ const Footer = () => {
                 <div className="footer-row">
                     {/* column1 */}
                     <div className="footer-col">
+                    <h4 className="footer-service-title">
+                        RELAX EAST LOTHIAN
+                    </h4>
+                        <ul className="footer-list">
+                            <li className="footer-list-item">
+                                about
+                            </li>
+                            <li className="footer-list-item">
+                                gallery
+                            </li>
+                            <li className="footer-list-item">
+                                footer lister
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    {/* column2 */}
+
+                    <div className="footer-col">
                         <h4 className="footer-service-title" >SERVICES</h4>
                             <ul className="footer-list">
                                 {/* <li className="footer-list-item"><a href="/relax-kids-services"> relax kids services</a></li>
@@ -36,26 +56,14 @@ const Footer = () => {
 
                             </ul> 
                     </div>
-
-                    {/* <li className="nav-item">
-                    <Link to='/' className="nav-links" onClick={ closeMobileMenu }>
-                        Home
-                    </Link> */}
-
-                    {/* </li> */}
-                    {/* column2 */}
-                    <div className="footer-col">
-                    <h4 className="footer-service-title">TITLE</h4>
-                        <ul className="footer-list">
-                            <li className="footer-list-item">footer lister</li>
-                            <li className="footer-list-item">footer lister</li>
-                            <li className="footer-list-item">footer lister</li>
-
-                        </ul>
-                    </div>
+                    
                     {/* column3 */}
                     <div className="footer-col">
-                        <h4 className="footer-service-title">CONTACT US</h4>
+                        <h4 className="footer-service-title">
+                            <Link to="/contact" className="footer-service-title-link">
+                                CONTACT
+                            </Link>
+                        </h4>
                         <ul className="footer-list">
                             {/* <li>contact us</li> */}
                             <li className="footer-list-item">
@@ -69,9 +77,24 @@ const Footer = () => {
                         </ul>
 
                     </div>
-                    <div className="footer-social-panel">
-                    <SocialMediaPanel />
+
+                    {/* column4 */}
+
+                    <div className="footer-col">
+                    <h4 className="footer-service-title">
+                        FOLLOW US
+                    </h4>
+                        <ul className="footer-social-panel">
+                            <SocialMediaPanel />
+
+                        </ul>
                     </div>
+
+
+
+                    {/* <div className="footer-social-panel">
+                    <SocialMediaPanel />
+                    </div> */}
                 </div>
                 <hr />
                 <div className="footer-row-bottom">

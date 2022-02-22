@@ -20,19 +20,30 @@
     font-family: 'Encode Sans', sans-serif ;
     font-size: 14px;
 }
+.footer-service-title-link{
+    font-family: 'Encode Sans', sans-serif ;
+    font-size: 14px;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-service-title-link:hover {
+    color: darkgrey;
+}
+
 .footer-list {
     list-style-type: none;
     font-size: 14px; 
 }
-.footer-list-item {
-    cursor: pointer;
-}
-.footer-list-item:hover {
+
+.footer-list-item-link:hover {
     color:darkgrey;
 }
 .footer-list-item-link {
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .footer-row-bottom {
@@ -56,26 +67,18 @@
   }
   
   .footer-social-panel {
-    /* display: flex;
-    align-items: center; */
-    margin: auto auto;
+    margin: none;
   }
   
   .footer-social-panel .social-media-logo {
   height: 40px;
   }
 
+  .footer-social-panel .social-media-logo:hover {
+    transform: translateY(2px);
+    }
 
 
 
-
-
-/* .footer-container a{
-      color: white;
-}
-
-.footer-container a:hover{
-    color: #119da4;
-} */
 
 

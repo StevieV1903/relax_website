@@ -85,6 +85,7 @@ hr {
 
 .privacy-container {
   background-color: white;
+  color: #5a5a5a;
   font-size: 16px;
   line-height: 1.5;
   min-height: 100vh;
@@ -198,6 +199,56 @@ blockquote span {
   font-weight: bold;
   margin-top: 10px;
   font-family: 'Schoolbell', cursive;
+}
+
+
+
+
+
+.accordion {
+  max-width: 85%;
+  margin: 2rem auto;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #175f77;
+  color: white;
+}
+
+.accordion-title:hover {
+  background-color: #119da4;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  background-color: whitesmoke;
+}
+
+.accordion-title-content{
+  font-size: 16px;
+}
+.accordion-title-expander{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
 }
 
 
