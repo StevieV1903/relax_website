@@ -17,14 +17,18 @@ const Footer = () => {
                     </h4>
                         <ul className="footer-list">
                             <li className="footer-list-item">
-                                about
+                                <Link to="/about" className="footer-list-item-link">
+                                    about
+                                </Link>
                             </li>
                             <li className="footer-list-item">
-                                gallery
+                                <Link to="/gallery" className="footer-list-item-link">
+                                    gallery
+                                </Link>
                             </li>
-                            <li className="footer-list-item">
+                            {/* <li className="footer-list-item">
                                 footer lister
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
@@ -65,13 +69,16 @@ const Footer = () => {
                             </Link>
                         </h4>
                         <ul className="footer-list">
-                            {/* <li>contact us</li> */}
                             <li className="footer-list-item">
                                 <Link to="/privacy" className="footer-list-item-link">
                                     privacy statement
                                 </Link>
                             </li>
-                            <li className="footer-list-item">terms of service</li>
+                            <li className="footer-list-item">
+                                <Link to="/terms" className="footer-list-item-link"> 
+                                    terms of service
+                                </Link>
+                            </li>
                             
 
                         </ul>
