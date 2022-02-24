@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 10px 200px 30px 200px;
-    text-align: left;
+    /* text-align: left; */
     
 }
 
@@ -58,7 +58,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
     /* margin-left: 20px; */
     /* position: absolute;
     top: 95%;

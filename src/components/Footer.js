@@ -91,10 +91,10 @@ const Footer = () => {
                     <h4 className="footer-service-title">
                         FOLLOW US
                     </h4>
-                        <ul className="footer-social-panel">
+                        <div className="footer-social-panel">
                             <SocialMediaPanel />
 
-                        </ul>
+                        </div>
                     </div>
 
 

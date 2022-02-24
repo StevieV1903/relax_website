@@ -15,9 +15,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */
 
 .my-float {
 	/* margin-top: 22px; */
+}
+
+.top {
+  scroll-behavior: smooth;
 }
   

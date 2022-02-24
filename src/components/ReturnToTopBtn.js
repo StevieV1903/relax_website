@@ -20,7 +20,7 @@ const ReturnToTopBtn = () => {
     return(
         <>
              {isButtonActive && 
-             <a href="#" class="top">
+             <a href="#" class="top" >
                  <i class="fas fa-arrow-up my-float"></i>
              </a>
              }
