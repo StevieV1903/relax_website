@@ -14,15 +14,23 @@ const ReturnToTopBtn = () => {
         }
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+
     window.addEventListener( 'scroll', showReturnToTopBtn )
+    window.addEventListener( 'click', scrollToTop )
 
 
     return(
         <>
              {isButtonActive && 
-             <a href="#" class="top" >
-                 <i class="fas fa-arrow-up my-float"></i>
-             </a>
+             <button class="top"><i class="fas fa-arrow-up my-float"></i></button>
+            //  <button class="top" onclick={()=> scrollToTop()}>TOP</button>
+            //  <a href="#" class="top" >
+            //      <i class="fas fa-arrow-up my-float"></i>
+            //  </a>
              }
         </>
 

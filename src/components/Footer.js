@@ -103,7 +103,7 @@ const Footer = () => {
                     <SocialMediaPanel />
                     </div> */}
                 </div>
-                <hr />
+                {/* <hr /> */}
                 <div className="footer-row-bottom">
                     <p>&copy;{new Date().getFullYear()} Relax East Lothian | All Rights Reserved | Website created by StevieV1903</p>
 
