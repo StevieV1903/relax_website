@@ -1,37 +1,39 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./ReturnToTopBtn.css"
 
 
 const ReturnToTopBtn = () => {
 
-    const [isButtonActive, setIsButtonActive] = useState( false )
+    const [ isButtonVisible, setIsButtonVisible ] = useState( false )
 
-    const showReturnToTopBtn = () => {
-        if( window.scrollY >= 80 ) {
-            setIsButtonActive( true )
+    useEffect(()=> {
+        window.addEventListener('scroll', showReturnToTopButton ) //adds event listener to user scrolling
+
+        return () => {
+            window.removeEventListener( 'scroll', showReturnToTopButton ) // return function removes event listener when component unmounts
+        }
+
+    }, [])
+
+    const showReturnToTopButton = () => {
+        if( window.pageYOffset >= 100 ) { //when user scrolls 200px changes state to true to IsButtonVisible
+            setIsButtonVisible( true )
         } else {
-            setIsButtonActive( false )
+            setIsButtonVisible( false )
         }
     };
 
     const scrollToTop = () => {
-        window.scrollTo({top: 0, behavior: 'smooth'});
+        window.scroll({
+            top: 0,
+            behavior: 'smooth',
+        })
     }
-
-
-    window.addEventListener( 'scroll', showReturnToTopBtn )
-    window.addEventListener( 'click', scrollToTop )
 
 
     return(
         <>
-             {isButtonActive && 
-             <button class="top"><i class="fas fa-arrow-up my-float"></i></button>
-            //  <button class="top" onclick={()=> scrollToTop()}>TOP</button>
-            //  <a href="#" class="top" >
-            //      <i class="fas fa-arrow-up my-float"></i>
-            //  </a>
-             }
+            { isButtonVisible && <button type="button" class="top" onClick={scrollToTop} ><i class="fas fa-arrow-up my-float"></i></button>}   
         </>
 
     )
