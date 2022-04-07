@@ -4,6 +4,8 @@ import './PartnerGallery.css';
 import elcLogo from '../assets/elc_logo.png';
 import asLogo from '../assets/active-schools.jpeg';
 import dpsLogo from '../assets/dps.png';
+import beavers from '../assets/beavers.png';
+import cubs from '../assets/cubs.png';
 
 const PartnerGallery = () => {
     
@@ -21,10 +23,13 @@ const PartnerGallery = () => {
                     <img className="partner-logo" src={dpsLogo} alt="dunbar primary school"></img>
                 </div>
                 <div className="logo-container">
-                    <img className="partner-logo" src={elcLogo} alt="east lothian council"></img>
+                    <img className="partner-logo" src={beavers} alt="beavers scouts"></img>
                 </div>
                 <div className="logo-container">
                     <img className="partner-logo" src={asLogo} alt="active schools"></img>
+                </div>
+                <div className="logo-container">
+                    <img className="partner-logo" src={cubs} alt="cub scouts"></img>
                 </div>
 
 

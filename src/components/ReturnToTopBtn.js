@@ -33,7 +33,7 @@ const ReturnToTopBtn = () => {
 
     return(
         <>
-            { isButtonVisible && <button type="button" class="top" onClick={scrollToTop} ><i class="fas fa-arrow-up my-float"></i></button>}   
+            { isButtonVisible && <button type="button" className="top" onClick={scrollToTop} ><i class="fas fa-arrow-up my-float"></i></button>}   
         </>
 
     )

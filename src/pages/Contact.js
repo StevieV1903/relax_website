@@ -4,7 +4,6 @@ import './Contact.css';
 import PartnerGallery from '../components/PartnerGallery.js';
 import SocialMediaPanel from '../components/SocialMediaPanel';
 
-import mailbox from '../assets/mailtablet.svg';
 
 const Contact = () => {
 

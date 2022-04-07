@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown.js';
-import relaxELLogo from '../assets/relaxELLOGO.png';
+// import relaxELLogo from '../assets/relaxELLOGO.png';
+import relaxELLogo from '../assets/relax_logo_transparent.png';
 
 
 const Navbar = () => {

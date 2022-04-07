@@ -25,7 +25,8 @@ const RelaxKidsServices = () => {
             <div className="relax-kids-content">
                 <p>The Relax Kids' programmes supports children’s mental and emotional health and wellbeing with a range of tools and techniques to help calm their body and mind, whilst building confidence and self-esteem. We use a pioneering,  holistic approach and fun, creative techniques to help your children of all ages, feel happier and healthier.</p>
                 <p>We are here to support parents, teachers and all those working with children with our unique range of meditation, mindful and relaxation products, resources, toolkits, classes and training which have improved over the last 20 years.</p>
-                <p>I am a fully trained and qualified Relax Kids coach, experienced at delivering the following sessions, either in a group setting or on a 1-2-1 basis. Please get in touch if you would like more information or to have a chat about the benefits of attending any of the sessions.</p>
+                <p>I am a fully trained and qualified Relax Kids coach, experienced at delivering the following sessions, either in a group setting or on a 1-2-1 basis. </p>
+                <p>Over the past three years, I have worked with over 1000 children in primary schools, community groups, Brownies, Beavers, Cubs and Guides, active school programmes, festivals and even hosted a birthday party. Please get in touch if you would like more information or to have a chat about the benefits of attending any of the sessions.</p>
             </div>
         {/* </div> */}
             <Tabs />
