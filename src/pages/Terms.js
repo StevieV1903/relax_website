@@ -54,11 +54,9 @@ const Terms = () => {
                         <h3>Contact Us</h3>
                         <p>If you have any questions or queries about our terms of service, please <a href="/contact" className="internal-contact-link">contact us</a> at any time.</p>
                         <p>Relax East Lothian is registered in Scotland, Number 05209200, registered office Relax East Lothian, 19 Steadings Crescent, Dunbar, East Lothian, EH42 1GR, UK.</p>
-        
-                    </div>
+            </div>
         </div>
     )
-
 };
 
 export default Terms;

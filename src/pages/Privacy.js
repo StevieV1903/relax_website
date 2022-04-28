@@ -42,26 +42,24 @@ const Privacy = () => {
     return(
         <div className="privacy-container">
             <div className="nav-block">
-
             </div>
-                    <div className="privacy-content-container">
-                        <h2 className="privacy-title">Privacy Policy</h2>
+                <div className="privacy-content-container">
+                    <h2 className="privacy-title">Privacy Policy</h2>
                         <p>At Relax East Lothian we are committed to protecting your privacy. Our privacy policy explains why we collect your personal information and how we use it. We may change this policy so please check this page occasionally to ensure you’re happy with any changes. In using our website and services you are agreeing to be bound by this policy. Contact us directly should you have any questions or concerns.
                         </p>  
-                        <div>
-                            <div className="accordion">
-                                {privacyData.map(({ title, content }) => (
-                                <Accordion title={title} content={content} />
-                                ))}
-                            </div>
+                    <div>
+                        <div className="accordion">
+                            {privacyData.map(({ title, content }) => (
+                            <Accordion title={title} content={content} />
+                            ))}
                         </div>
+                    </div>
                         <h3>Contact Us</h3>
                         <p>If you have any questions or queries about our privacy policy, please <a href="/contact" className="internal-contact-link">contact us</a> at any time.</p>
                         <p>Relax East Lothian is registered in Scotland, Number 05209200, registered office Relax East Lothian, 19 Steadings Crescent, Dunbar, East Lothian, EH42 1GR, UK.</p>
-                    </div>
+                </div>
         </div>
     )
-
 };
 
 export default Privacy;

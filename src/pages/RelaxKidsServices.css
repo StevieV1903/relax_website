@@ -39,7 +39,7 @@
 }
 
 .relax-kids-content {
-  padding: 10px 40px 0px 40px;
+  padding: 10px 20px 0px 20px;
 }
 
   .relax-kids-container{
@@ -57,4 +57,20 @@
   .rainbow-icon {
     display: inline;
     height: 50px;
+  }
+
+  /* .relax-kids-top-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  } */
+
+  .relax-kids-img-container {
+    padding: 5px;
+    margin: auto auto;
+  }
+  .relax-kids-img {
+    width: 300px;
+    height: 220px;
+    float: right;
+    padding: 15px;
   }
