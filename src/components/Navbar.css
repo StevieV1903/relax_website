@@ -67,7 +67,7 @@
     cursor: pointer;
     text-decoration: none;
     height: 70px;
-    margin: 5px 0px 5px 20px;
+    margin: 0px 0px 5px 20px;
   }
   
   @media screen and (max-width: 960px) {
