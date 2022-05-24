@@ -57,7 +57,9 @@ return(
         <>
             <nav className={ isNavbarActive ? "navbar active" : "navbar" }>
             <Link to="/" className="navbar-logo">
-                <img src={ relaxELLogo } className='navbar-logo' alt="relax east lothian" />
+                <img src={ relaxELLogo } 
+                // className='navbar-logo' 
+                alt="relax east lothian" />
             </Link>
 
             <div className="menu-icon" onClick={ handleClick }>

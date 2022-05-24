@@ -62,12 +62,12 @@
     margin-left: 5px;
   }
 
-  .navbar-logo {
+  .navbar-logo img {
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    height: 70px;
-    margin: 0px 0px 5px 20px;
+    height: 60px;
+    margin-left: 20px;
   }
   
   @media screen and (max-width: 960px) {
@@ -103,6 +103,14 @@
       transition: all 0.5s ease;
       z-index: 1;
       position: absolute;
+    }
+
+    .navbar-logo img {
+      justify-self: start;
+      cursor: pointer;
+      text-decoration: none;
+      height: 60px;
+      margin: 10px 0px 0px 0px;
     }
   
     .nav-links {
