@@ -50,10 +50,6 @@
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
-  
-  .fa-bars {
-    color: white;
-  }
 
   .menu-icon {
     display: none;
@@ -148,14 +144,27 @@
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(-100%, 60%);
+      margin-top: 22px;
+      margin-right: 40px;
+      /* transform: translate(-100%, 60%); */
       font-size: 30px;
       cursor: pointer;
     }
+
+    .fa-bars {
+      color: rgb(196, 196, 196);
+      /* border: 2px solid white;
+      padding: 10px;
+      border-radius: 50%; */
+    }
   
     .fa-times {
-      color: white;
-      font-size: 32px;
+      /* color: white;
+      font-size: 32px; */
+      color: rgb(196, 196, 196);
+      /* border: 2px solid white; */
+      /* padding: 10px; */
+      /* border-radius: 50%; */
     }
     
   }
